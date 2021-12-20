@@ -3,10 +3,12 @@ import { Routes, Route } from 'react-router-dom'
 
 //import pages & components
 import LandingPage from './pages/landingPage/landing.pages';
+import Header from './components/header/Header.component';
 
 function App() {
   return (
     <div className="App">
+      <Header />
       <Routes>
         <Route path="/" element={<LandingPage />} />
       </Routes>
