@@ -1,0 +1,27 @@
+$primary-color:#ffea00;
+$primary-color-monochrome:#b6970c;
+
+$hover-color:rgb(0, 0, 0);
+$hover-color-monochrome:rgb(75, 75, 75);
+$hover-text-color:#dfcd10;
+
+.btn{
+    padding: 10px 40px;
+    font-weight:800;
+    border-radius:5px;
+    cursor:pointer;
+    box-shadow: 3px 3px 7px #333;
+    border: none;
+    transition:0.3s;
+
+    &:hover{
+        box-shadow:none;
+        background-image: linear-gradient($hover-color,$hover-color-monochrome);
+        color:$hover-text-color;
+    }
+}
+
+.primary-btn{
+    background-image: linear-gradient($primary-color,$primary-color-monochrome);
+    color:white;
+}
