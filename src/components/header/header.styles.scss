@@ -1,0 +1,36 @@
+.header{
+    position:absolute;
+    width:100%;
+    top:0;
+    border-bottom:2px solid #ffea00;
+
+    div{
+        width:90%;
+        margin: auto;
+        display:flex;
+        justify-content: space-between;
+
+        nav{
+            display: flex;
+            width:130px;
+            justify-content: space-between;
+            padding-top:20px;
+
+            .nav-link{
+                text-decoration:none;
+                color:white;
+                font-weight: 900;
+                transition: 0.3s;
+
+                &:hover{
+                    color:#ffea00;
+                }
+            }
+        }
+    }
+
+    .logo{
+        width:150px;
+        padding-top:15px;
+    }
+}
