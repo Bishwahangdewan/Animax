@@ -1,4 +1,4 @@
-.landing{
+.showcase{
     height:100vh;
     background-image: url("../../assets/landing_showcase.jpg");
     background-position: center;
@@ -30,4 +30,42 @@
             }
         }
     }
+}
+
+
+.section{
+    width:85%;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+    margin-top:80px;
+
+    .section-content{
+        width:60%;
+        margin-top:10%;
+
+        h1{font-size: 40px;}
+
+        p{
+            margin-top:20px;
+            line-height: 1.7;
+        }
+    }
+
+    .pika{
+       width:27%;
+    }
+
+    .happy{
+        width:32%;
+        height:220px;
+        margin-top:50px;
+    }
+}
+
+hr{
+    margin-top: 80px;
+    height:5px;
+    background-color: #333;
+    border:none;
 }
