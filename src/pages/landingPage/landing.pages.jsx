@@ -8,6 +8,7 @@ import Happy from '../../assets/happy.png';
 
 //import components
 import CustomButton from '../../components/custom-button/CustomButton.component';
+import Accordion from '../../components/Accordion/accordion.component';
 
 const LandingPage = () => (
     <div className="landing">
@@ -32,14 +33,14 @@ const LandingPage = () => (
                 <p>Animax has more than 1000 anime shows that are updated on a regular basis so you can enjoy anywhere , anytime</p>
             </div>
 
-            <img className="pika" src={Pika} alt="section-image" />
+            <img className="pika" src={Pika} alt="section" />
         </div>
 
         <hr />
 
-        {/* Sections*/}
+        {/*Sections*/}
         <div className="section">
-            <img className="happy" src={Happy} alt="section-image" />
+            <img className="happy" src={Happy} alt="section" />
 
             <div className="section-content">
                 <h1><span className='text-primary'>Download Anime</span> and watch it offline.</h1>
@@ -47,6 +48,11 @@ const LandingPage = () => (
             </div>
 
         </div>
+
+        <hr />
+
+        {/*Accordion*/}
+        <Accordion />
 
         <hr />
     </div>

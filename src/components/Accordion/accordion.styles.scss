@@ -1,0 +1,38 @@
+.accordion-container{
+    width:50%;
+    margin:auto;
+    text-align:center;
+
+    .accordion-header{
+        padding:20px;
+        background-color: #111;
+        box-shadow: 4px 4px 20px #000;
+        cursor:pointer;
+
+        &:hover{
+            background-color:#050505;
+        }
+    }
+
+    .accordion-content{
+        padding:20px;
+        background-color: #222;
+        line-height: 1.8;
+    }
+
+    h1{
+        margin-top:80px;
+        margin-bottom:50px;
+        font-family: Roboto Condensed;
+        font-size: 40px;
+      }
+
+    
+    .unhide{
+        display:block
+    }
+
+    .hide{
+        display:none
+    }
+}
