@@ -8,7 +8,7 @@
     .darken{
         width:100%;
         height:100vh;
-        background: rgba(0,0,0,0.4);
+        background: rgba(0,0,0,0.5);
 
         .showcase-content{
             color:#fff;
@@ -69,3 +69,61 @@ hr{
     background-color: #333;
     border:none;
 }
+
+.footer{
+    padding: 20px 0;
+    text-align:center;
+    font-size: 12px;
+    
+    p{
+        padding-bottom: 8px;
+    }
+}
+
+
+@media(max-width:500px){
+    .showcase{
+        .darken{
+            .showcase-content{
+                padding-top:50%;
+                width:85%;
+
+                h1{
+                    font-size:50px;
+                    text-align:center;
+                }
+
+                p{
+                    font-size: 16px;
+                    text-align:center;
+                    line-height: 1.6;
+                }
+            }
+        }
+    }
+
+    .section{
+        display:block;
+
+        .section-content{
+            width:100%;
+            text-align:center;
+        }
+
+        .pika{
+            width:50%;
+            display:block;
+            margin:auto;
+            margin-top:30px;
+        }
+
+        .happy{
+            width:70%;   
+            height:150px;
+            display:block;
+            margin:auto; 
+        }
+    }
+}
+
+

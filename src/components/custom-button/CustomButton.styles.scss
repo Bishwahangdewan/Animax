@@ -13,6 +13,7 @@ $hover-text-color:#dfcd10;
     box-shadow: 3px 3px 7px #333;
     border: none;
     transition:0.3s;
+    text-decoration:none;
 
     &:hover{
         box-shadow:none;
@@ -24,4 +25,12 @@ $hover-text-color:#dfcd10;
 .primary-btn{
     background-image: linear-gradient($primary-color,$primary-color-monochrome);
     color:white;
+}
+
+
+@media(max-width:500px){
+    .btn{
+        display:block;
+        text-align:center;
+    }
 }
