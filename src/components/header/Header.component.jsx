@@ -20,8 +20,8 @@ const Header = () => (
             {/*-------NAV LINKS--------*/}
 
             <nav>
-                <Link className="nav-link" to="/">Sign In</Link>
-                <Link className="nav-link" to="/">Sign Up</Link>
+                <Link className="nav-link" to="/signin">Sign In</Link>
+                <Link className="nav-link" to="/signup">Sign Up</Link>
             </nav>
         </div>
     </div>
