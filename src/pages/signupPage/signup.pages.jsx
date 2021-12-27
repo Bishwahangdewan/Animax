@@ -1,46 +1,83 @@
 import React from 'react';
 
-import { Link } from 'react-router-dom';
-
 //import styles
 import './signup.styles.scss';
 
 //import components
 import CustomButton from '../../components/custom-button/CustomButton.component';
 
-const SignUp = () => (
-    <div className='signup'>
-        <div className="img-container">
-            <div className="darken"></div>
-        </div>
-        <div className="form-container">
-            <div className='inner'>
-                <h1><span className="text-primary">Sign</span> Up</h1>
-                <p>Sign Up with your Email and Password.</p>
+class SignUp extends React.Component {
+    constructor() {
+        super();
 
-                <form className='form'>
-                    <div className='form-body'>
-                        <label>Username : </label>
-                        <input type="text" className="form-input" placeholder='Enter Email' />
-                    </div>
-                    <div className='form-body'>
-                        <label>Email : </label>
-                        <input type="text" className="form-input" placeholder='Enter Email' />
-                    </div>
-                    <div className='form-body'>
-                        <label>Password : </label>
-                        <input type="text" className="form-input" placeholder="Enter Password" />
-                    </div>
-                    <div className='form-body'>
-                        <label>Confirm Password : </label>
-                        <input type="text" className="form-input" placeholder="Enter Password" />
-                    </div>
+        //state to store user input
+        this.state = {
+            username: '',
+            email: '',
+            password: '',
+            confirmpassword: '',
+            errmessage: ''
+        }
+    }
 
-                    <CustomButton className="submit-btn" primary>Submit</CustomButton>
-                </form>
+    //handle change when user changes its input
+    handleChange(event) {
+        //state is set to whtever value user inputs . [] dynamically changes the property of the state depending on the input name and property name.
+        this.setState({ [event.target.name]: event.target.value })
+    }
+
+    //handle when the form is submitted
+    handleSubmit(event) {
+        event.preventDefault();
+
+
+        //check if password's length is more than 6 characters
+        const length = this.state.password.length;
+        if (length < 6) {
+            this.setState({ errmessage: 'Password length should be more than 6 characters long.' })
+        }
+    }
+
+    render() {
+        return (
+            <div className='signup'>
+                <div className="img-container">
+                    <div className="darken"></div>
+                </div>
+                <div className="form-container">
+                    <div className='inner'>
+                        <h1><span className="text-primary">Sign</span> Up</h1>
+                        <p>Sign Up with your Email and Password.</p>
+
+                        <form className='form' onSubmit={(e) => this.handleSubmit(e)}>
+                            <div className='form-body'>
+                                <label>Username : </label>
+                                <input type="text" className="form-input" placeholder='Enter Username' name="username" value={this.state.username} onChange={(e) => this.handleChange(e)} />
+                            </div>
+                            <div className='form-body'>
+                                <label>Email : </label>
+                                <input type="email" className="form-input" placeholder='Enter Email' name="email" value={this.state.email} onChange={(e) => this.handleChange(e)} />
+                            </div>
+                            <div className='form-body'>
+                                <label>Password : </label>
+                                <input type="password" className="form-input" placeholder="Enter Password" name="password" value={this.state.password} onChange={(e) => this.handleChange(e)} />
+                            </div>
+                            <div className='form-body'>
+                                <label>Confirm Password : </label>
+                                <input type="password" className="form-input" placeholder="Enter Password" name="confirmpassword" value={this.state.confirmpassword} onChange={(e) => this.handleChange(e)} />
+                            </div>
+
+                            {this.state.errmessage ?
+                                <p className='err-message'><sup>*</sup> {this.state.errmessage}</p>
+                                : ''}
+
+                            <CustomButton type="submit" className="submit-btn" primary>SUBMIT</CustomButton>
+                        </form>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-)
+        )
+    }
+}
 
 export default SignUp;
