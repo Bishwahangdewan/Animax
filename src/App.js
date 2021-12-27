@@ -12,7 +12,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<LandingPage />} />
-
+        <Route path="/signin" element={<SignIn />} />
       </Routes>
     </div>
   );

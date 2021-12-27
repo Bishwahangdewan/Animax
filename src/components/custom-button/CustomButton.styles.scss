@@ -6,6 +6,7 @@ $hover-color-monochrome:rgb(75, 75, 75);
 $hover-text-color:#dfcd10;
 
 .btn{
+    display:inline-block;
     padding: 10px 40px;
     font-weight:800;
     border-radius:5px;
@@ -25,6 +26,24 @@ $hover-text-color:#dfcd10;
 .primary-btn{
     background-image: linear-gradient($primary-color,$primary-color-monochrome);
     color:white;
+}
+
+.google{
+    background-color: white;
+    border:1px solid #ccc;
+    color:#111;
+
+    img{
+        width:15px;
+        padding-right:20px;
+        margin-top: 5px;
+    }
+
+    &:hover{
+        background-image: none;
+        background-color: #555;
+        color:#fff;
+    }
 }
 
 

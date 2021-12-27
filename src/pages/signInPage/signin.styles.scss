@@ -1,0 +1,60 @@
+.signin{
+    display:flex;
+
+    .img-container{
+        height:100vh;
+        width:50%;
+        background-image: url('../../assets/naruto.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        .darken{
+            background-color: rgba(0,0,0,0.2);
+            height:100vh;
+            width:100%
+        }
+    }
+
+    .form-container{
+        padding-top:150px;
+        height:100vh;
+        width:50%;
+        margin:auto;
+
+        .inner{
+            width:80%;
+            margin:auto;
+
+            h1{
+                font-size: 45px;
+                padding-bottom: 10px;
+            }
+
+            p{
+                padding-bottom: 30px;
+            }
+
+            .button{
+                margin-top: 50px;
+            }
+
+            .form{
+                .form-body{
+                    padding-bottom: 30px;
+        
+                    label{
+                        display:block;
+                        font-size: 14px;
+                        padding-bottom:5px;
+                    }
+
+                    input{
+                        width:100%;
+                        height:30px;
+                        padding-left:10px;
+                    }
+                }
+            }
+        }
+    }
+}
