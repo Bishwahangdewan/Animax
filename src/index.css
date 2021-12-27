@@ -20,3 +20,9 @@ code {
 .text-primary{
   color:#ffea00;
 }
+
+.primary-link{
+  color:#ffea00;
+  text-decoration: none;
+}
+

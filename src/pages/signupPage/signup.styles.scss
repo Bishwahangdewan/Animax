@@ -1,10 +1,10 @@
-.signin{
+.signup{
     display:flex;
 
     .img-container{
         height:100vh;
         width:50%;
-        background-image: url('../../assets/naruto.jpg');
+        background-image: url('../../assets/sao.jpg');
         background-size: cover;
         background-repeat: no-repeat;
 
@@ -21,7 +21,7 @@
     }
 
     .form-container{
-        padding-top:100px;
+        padding-top:50px;
         width:50%;
         margin:auto;
 
@@ -64,7 +64,7 @@
 }
 
 @media(max-width:720px){
-    .signin{
+    .signup{
         display:block;
 
         .img-container{
@@ -73,6 +73,7 @@
 
         .form-container{
             width:100%;
+            padding-top:100px;
         }
     }
 }
