@@ -29,6 +29,8 @@ class App extends React.Component {
         //user is signed in
         this.setState({ user })
         this.setState({ uid: user.uid })
+      } else {
+        this.setState({ uid: "" })
       }
     });
 

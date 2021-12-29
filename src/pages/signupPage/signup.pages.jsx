@@ -3,13 +3,12 @@ import React from 'react';
 //import styles
 import './signup.styles.scss';
 
-import Loader from '../../assets/loader.gif';
-
 //import firebase services
 import { auth, createUserWithEmailAndPassword } from '../../firebase/firebase';
 
 //import components
 import CustomButton from '../../components/custom-button/CustomButton.component';
+import Loader from '../../components/loader/loader.component';
 
 class SignUp extends React.Component {
     constructor() {
@@ -80,9 +79,8 @@ class SignUp extends React.Component {
         return (
             <div className='signup'>
                 {this.state.showLoader ?
-                    <div className="loader-bg">
-                        <img src={Loader} alt="loader" />
-                    </div> : ''}
+                    <Loader /> : ''
+                }
                 <div className="img-container">
                     <div className="darken"></div>
                 </div>
@@ -117,7 +115,7 @@ class SignUp extends React.Component {
                         </form>
                     </div>
                 </div>
-            </div>
+            </div >
         )
     }
 }
