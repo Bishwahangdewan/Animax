@@ -6,9 +6,6 @@ import './signin.styles.scss';
 //import components
 import CustomButton from '../../components/custom-button/CustomButton.component';
 
-//import img
-import Naruto from '../../assets/naruto.jpg';
-
 const SignIn = () => (
     <div className='signin'>
         <div className="img-container">

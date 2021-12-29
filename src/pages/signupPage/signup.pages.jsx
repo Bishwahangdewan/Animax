@@ -3,6 +3,11 @@ import React from 'react';
 //import styles
 import './signup.styles.scss';
 
+import Loader from '../../assets/loader.gif';
+
+//import firebase services
+import { auth, createUserWithEmailAndPassword } from '../../firebase/firebase';
+
 //import components
 import CustomButton from '../../components/custom-button/CustomButton.component';
 
@@ -16,31 +21,68 @@ class SignUp extends React.Component {
             email: '',
             password: '',
             confirmpassword: '',
-            errmessage: ''
+            errmessage: '',
+            showLoader: false
         }
     }
 
-    //handle change when user changes its input
+    //handle change when user changes its input.
     handleChange(event) {
         //state is set to whtever value user inputs . [] dynamically changes the property of the state depending on the input name and property name.
         this.setState({ [event.target.name]: event.target.value })
     }
 
-    //handle when the form is submitted
-    handleSubmit(event) {
+    //handle when the form is submitted.
+    handleSubmit = async (event) => {
         event.preventDefault();
 
+        const { username, email, password, confirmpassword } = this.state;
 
-        //check if password's length is more than 6 characters
-        const length = this.state.password.length;
+        //check for empty fields.
+        if (username === '' || email === '' || password === '' || confirmpassword === '') {
+            //dont proceed if one field is empty
+            this.setState({ errmessage: 'Please fill in all the fields before signing up.' })
+            return;
+        }
+
+        //check if password's length is more than 6 characters.
+        var length = this.state.password.length;
+
         if (length < 6) {
             this.setState({ errmessage: 'Password length should be more than 6 characters long.' })
+            return;
         }
+
+        //check if password and confirmpassword match
+        if (password !== confirmpassword) {
+            //passwords do not match
+            this.setState({ errmessage: 'The Passwords do not match.' })
+            return;
+        }
+        //showloader
+        this.setState({ showLoader: !this.state.showLoader })
+
+        try {
+            //passwords match - Setup Firebase auth
+            const userCredentials = await createUserWithEmailAndPassword(auth, email, password)
+            userCredentials.user.displayName = username;
+            console.log(userCredentials.user)
+
+            //hide loader
+            this.setState({ showLoader: !this.state.showLoader })
+        } catch (err) {
+            console.log(err.message)
+        }
+
     }
 
     render() {
         return (
             <div className='signup'>
+                {this.state.showLoader ?
+                    <div className="loader-bg">
+                        <img src={Loader} alt="loader" />
+                    </div> : ''}
                 <div className="img-container">
                     <div className="darken"></div>
                 </div>

@@ -1,5 +1,8 @@
 import { initializeApp } from 'firebase/app';
 
+//get authentication services
+import { getAuth, createUserWithEmailAndPassword, onAuthStateChanged, signOut } from 'firebase/auth';
+
 const firebaseConfig = {
     apiKey: "AIzaSyDmiQukA-k9gnch-bh2Vkvxj3wX_8MAjws",
     authDomain: "animax-9a636.firebaseapp.com",
@@ -10,5 +13,8 @@ const firebaseConfig = {
 }
 
 //A Firebase App is a container-like object that stores common configuration and shares authentication across Firebase services. After you initialize a Firebase App object in your code, you can add and start using Firebase services.
-
 const app = initializeApp(firebaseConfig);
+
+const auth = getAuth(app);
+
+export { auth, app, createUserWithEmailAndPassword, onAuthStateChanged, signOut };

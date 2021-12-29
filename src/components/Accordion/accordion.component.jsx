@@ -19,7 +19,7 @@ class Accordion extends React.Component {
         //map returns new array after changing something from the existing array
         //spread operator returns every property of the object including the changed property
         const newData = this.state.data.map(eachData =>
-            eachData.id == accordion_index ? { ...eachData, toggle: !eachData.toggle } : eachData
+            eachData.id === accordion_index ? { ...eachData, toggle: !eachData.toggle } : eachData
         )
 
         //state can't be mutated directly
