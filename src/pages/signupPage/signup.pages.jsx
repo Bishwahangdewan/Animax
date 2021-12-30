@@ -4,7 +4,7 @@ import React from 'react';
 import './signup.styles.scss';
 
 //import firebase services
-import { auth, createUserWithEmailAndPassword } from '../../firebase/firebase';
+import { auth, createUserWithEmailAndPassword, updateProfile } from '../../firebase/firebase';
 
 //import components
 import CustomButton from '../../components/custom-button/CustomButton.component';
@@ -64,7 +64,9 @@ class SignUp extends React.Component {
         try {
             //passwords match - Setup Firebase auth
             const userCredentials = await createUserWithEmailAndPassword(auth, email, password)
-            userCredentials.user.displayName = username;
+            updateProfile(auth.currentUser, {
+                displayName: username
+            })
             console.log(userCredentials.user)
 
             //hide loader

@@ -12,28 +12,33 @@ import SignUp from './pages/signupPage/signup.pages';
 //import Firebase Services
 import { auth, onAuthStateChanged } from './firebase/firebase';
 
+
 class App extends React.Component {
   constructor() {
     super()
 
     this.state = {
-      user: {},
-      uid: ''
+      uid: '',
     }
   }
 
+  //on auth state changed returns a function which should be called while unmounting in order to cancel subscription and avoid memory leaks
+  unsubscribeFromAuth = null;
+
   componentDidMount() {
     //returns a signed in user
-    onAuthStateChanged(auth, user => {
+    this.unsubscribeFromAuth = onAuthStateChanged(auth, user => {
       if (user) {
         //user is signed in
-        this.setState({ user })
         this.setState({ uid: user.uid })
       } else {
         this.setState({ uid: "" })
       }
     });
+  }
 
+  componentWillUnmount() {
+    this.unsubscribeFromAuth()
   }
 
   render() {
