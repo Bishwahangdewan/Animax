@@ -1,0 +1,53 @@
+.display-container{
+    height:85vh;
+    width:100%;
+    overflow: hidden;
+    
+    
+    .video-container{
+        position:absolute;
+        top:0;
+    }
+
+    .overlay{
+        position:absolute;
+        width: 100vh;
+        height:100%;
+        background-color: rgba(0,0,0,0.5);
+        border-radius: 100%;
+        margin-left:-200px;
+        margin-top:-80px;
+        filter:blur(100px);
+        overflow: hidden;
+    }
+
+    .display-content{
+       padding-top:25vh;
+       position:relative;
+       /*z-index does not work with static positioning only with absolute relative etc.*/
+       z-index:1000;
+
+       h1{
+           font-family:DM Serif display;
+           font-size:60px;
+           letter-spacing: 3px;
+           background-image: linear-gradient(#fff79e,#d1c000);
+           background-clip: text;
+           -webkit-text-fill-color:transparent ;
+       }
+
+       p{
+           width:50%;
+           line-height: 1.7;
+           padding-top:15px;
+       }
+
+       .button-container{
+           padding-top:30px;
+           width:320px;
+           display: flex;
+           justify-content: space-between;
+       }
+    }
+   
+}
