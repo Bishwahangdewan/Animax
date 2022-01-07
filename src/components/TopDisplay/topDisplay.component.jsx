@@ -23,7 +23,8 @@ const TopDisplay = () => {
 
     //full screen height
     const fullHeight = {
-        height: '100vh'
+        height: '100vh',
+        width: '100%'
     }
 
     //After 3 seconds of hover change to video
@@ -61,8 +62,8 @@ const TopDisplay = () => {
         <div onMouseEnter={() => changeToVideo()} onMouseLeave={() => changeToImage()} className="display">
             {toggleVideo ?
 
-                <div className="display-container" style={toggleVideo ? fullHeight : ''}>
-                    <video autoPlay loop id="myVideo">
+                <div className="display-container">
+                    <video autoPlay loop id="myVideo" style={toggleVideo ? fullHeight : ''}>
                         <source src={Video} type="video/mp4" />
                     </video>
 
