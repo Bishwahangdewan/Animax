@@ -23,8 +23,9 @@ const Dashboard = () => {
     return (
         <div className="dashboard-container">
             <TopDisplay />
-
-            {displayCollectionPreview}
+            <div class="collection-preview-container">
+                {displayCollectionPreview}
+            </div>
         </div>
     )
 }

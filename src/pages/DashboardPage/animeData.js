@@ -126,6 +126,54 @@ export const AnimeData = [
                 release_year: '2021',
                 no_of_seasons: '1',
                 img: 'shaman_king.jpg'
+            },
+            {
+                title: "86",
+                description: "The Republic of San Magnolia is at war with its neighboring country, the Empire of Giad. Both sides use unmanned drones to conduct a war without casualties. The story follows Lena as she commands a squad of drones called the 86.",
+                genre: ['animation', 'action', 'drama'],
+                release_year: '2021',
+                no_of_seasons: '2',
+                img: '86.jpg'
+            },
+            {
+                title: "Vivy",
+                description: "The female looking and first autonomous AI named Diva is created for one mission to make everyone happy by singing. Shortly Diva is confronted by an unknown program from the future with objective to make Diva join him and destroy AIs.",
+                genre: ['animation', 'action', 'adventure'],
+                release_year: '2021',
+                no_of_seasons: '1',
+                img: 'Vivy.jpg'
+            },
+            {
+                title: "Shaman King",
+                description: "Shaman King follows the adventures of a 13-year-old shaman and his teammate a samurai warrior spirit, who traverse the world fighting evil spirits and misguided shamans on their journey to be the next Shaman King.",
+                genre: ['animation', 'action', 'adventure', 'comedy', 'fantasy'],
+                release_year: '2021',
+                no_of_seasons: '1',
+                img: 'shaman_king.jpg'
+            },
+            {
+                title: "86",
+                description: "The Republic of San Magnolia is at war with its neighboring country, the Empire of Giad. Both sides use unmanned drones to conduct a war without casualties. The story follows Lena as she commands a squad of drones called the 86.",
+                genre: ['animation', 'action', 'drama'],
+                release_year: '2021',
+                no_of_seasons: '2',
+                img: '86.jpg'
+            },
+            {
+                title: "Vivy",
+                description: "The female looking and first autonomous AI named Diva is created for one mission to make everyone happy by singing. Shortly Diva is confronted by an unknown program from the future with objective to make Diva join him and destroy AIs.",
+                genre: ['animation', 'action', 'adventure'],
+                release_year: '2021',
+                no_of_seasons: '1',
+                img: 'Vivy.jpg'
+            },
+            {
+                title: "Shaman King",
+                description: "Shaman King follows the adventures of a 13-year-old shaman and his teammate a samurai warrior spirit, who traverse the world fighting evil spirits and misguided shamans on their journey to be the next Shaman King.",
+                genre: ['animation', 'action', 'adventure', 'comedy', 'fantasy'],
+                release_year: '2021',
+                no_of_seasons: '1',
+                img: 'shaman_king.jpg'
             }
         ]
     }

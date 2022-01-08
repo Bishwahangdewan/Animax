@@ -8,13 +8,10 @@ import AnimeCard from '../AnimeCard/anime-card.component';
 
 const AnimeCollectionPreview = ({ data }) => {
 
-    const [trackIndex, setTrackIndex] = useState(3);
-    const [baseIndex, setBaseIndex] = useState(0);
-
-    const displayAnimeCards = () => {
+    const displayAnimeCards = (base, track) => {
         let collection = [];
 
-        for (var i = baseIndex; i <= trackIndex; i++) {
+        for (var i = base; i <= track; i++) {
             if (data.anime_list[i]) {
                 collection.push(data.anime_list[i])
             }
@@ -27,11 +24,17 @@ const AnimeCollectionPreview = ({ data }) => {
         <div className="preview-container">
             <h2>{data.label}</h2>
 
-            <section id="section1">
-                <a href="#section3"></a>
-                {displayAnimeCards()}
-                <a href="#section2"></a>
-            </section>
+            <div className='wrapper'>
+                <section id="section1">
+                    <a href="#section3">
+                        <i className="fas fa-arrow-left"></i>
+                    </a>
+                    {displayAnimeCards(0, 4)}
+                    <a href="#section2">
+                        <i className="fas fa-arrow-right"></i>
+                    </a>
+                </section>
+            </div>
         </div>
     )
 }
