@@ -5,26 +5,20 @@ import './dashboard.styles.scss';
 
 //import components
 import TopDisplay from '../../components/TopDisplay/topDisplay.component';
-import AnimeCollectionPreview from '../../components/AnimeCollectionPreview/anime-collection-preview';
+import CollectionPreview from '../../components/CollectionPreview/CollectionPreview.component';
 
 //import data
 import { AnimeData } from './animeData';
 
 const Dashboard = () => {
-
-    const displayCollectionPreview = (
-        <div>
-            {AnimeData.map((data, index) => (
-                <AnimeCollectionPreview key={index} data={data} />
-            ))}
-        </div>
-    )
-
+    console.log(AnimeData)
     return (
         <div className="dashboard-container">
             <TopDisplay />
-            <div class="collection-preview-container">
-                {displayCollectionPreview}
+            <div className="collection-preview-top-container">
+                {AnimeData.map((collection, index) => (
+                    <CollectionPreview key={index} collection={collection} />
+                ))}
             </div>
         </div>
     )
