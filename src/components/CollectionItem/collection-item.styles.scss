@@ -1,10 +1,59 @@
-.collection-item-container{
-    width:100%;
-    background-color:#555;
-    padding-bottom: 45%;
-    border-radius:3px;
+.collection-item-top-container{
+    
+    .collection-item-container{
+        width:100%;
+        background-color:#555;
+        padding-bottom: 56%;
+        border-radius:3px;
+     
+    
+        &:hover{
+            cursor:pointer;
+        }
+    }
+
+    .collection-item-content{
+        padding:10px;
+
+        .content-top{
+            display:flex;
+            justify-content: space-between;
+
+            .icon{
+                font-size: 25px;
+                padding-top:5px;
+                transition:0.3s;
+
+                &:hover{
+                    cursor: pointer;
+                    color:#666;
+                    font-size:28px;
+                    padding-top:2px;
+                }
+            }
+        }
+
+        h2{
+            font-family: Oswald;
+            font-size:20px;
+            padding-bottom: 5px;
+        }
+
+        .season{
+            font-size: 13px;
+            color:#aaa;
+        }
+
+        p{
+            font-size: 14px;
+            padding-bottom: 5px;
+        }
+    }
+
 
     &:hover{
-        cursor:pointer;
+        border:1px solid #333;
+        border-radius:3px;
     }
 }
+

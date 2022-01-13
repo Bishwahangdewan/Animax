@@ -21,11 +21,15 @@ const CollectionPreview = ({ collection }) => {
     return (
         <div className="collection-preview-container">
             <h2 className="collection-preview-header">{collection.label}</h2>
-            <Swiper className="swiper" modules={[Pagination]} spaceBetween={10} slidesPerView={5} pagination >
+            <Swiper className="swiper" modules={[Pagination]} spaceBetween={10} slidesPerView={5} pagination={{ clickable: true }} >
                 {collection.anime_list.map(anime => (<SwiperSlide key={uniqid()}>
-                    <CollectionItem anime={anime} />
+                    <div className="item">
+                        <CollectionItem anime={anime} />
+                    </div>
                 </SwiperSlide>))}
             </Swiper>
+
+
         </div>
     )
 }
