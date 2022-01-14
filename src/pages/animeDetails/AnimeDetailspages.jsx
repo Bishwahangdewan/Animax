@@ -12,11 +12,14 @@ import { useEffect } from 'react/cjs/react.development';
 
 //import components
 import DisplayGenre from '../../components/DisplayGenre/DisplayGenre.component';
+import EpisodeList from '../../components/EpisodeList/EpisodeList.component';
 
 
 const AnimeDetails = () => {
     const [animeDetails, setAnimeDetails] = useState({})
     const [animeGenre, setAnimeGenre] = useState([])
+    const [animeSeasons, setAnimeSeasons] = useState([])
+    const [currentSeason, setCurrentSeasons] = useState(1)
 
     const { id } = useParams();
 
@@ -27,9 +30,11 @@ const AnimeDetails = () => {
                 if (anime.id === id) {
                     setAnimeDetails(anime);
                     setAnimeGenre(anime.genre)
+                    setAnimeSeasons(anime.episodes)
                 }
             })
         })
+
     }, [])
 
     //bg img
@@ -44,22 +49,49 @@ const AnimeDetails = () => {
         animeGenre.map((eachGenre, index) => <DisplayGenre key={index} genre={eachGenre} />)
     )
 
+    //seasons option for select tag
+    const seasons = (
+        animeSeasons.map((eachSeason, index) => <option key={index} value={eachSeason.season}>{eachSeason.season}</option>)
+    )
+
+
+    //handle season change
+    const handleSeasonChange = (e) => {
+        setCurrentSeasons(parseInt(e.target.value))
+    }
+
     return (
         <div className="anime-details-container">
+
             <div className="dark-overlay"></div>
+
             <div className="details-top" style={bgImg} >
+
                 <div className="details-content">
                     <div className='title-image'>
                         <img src={`/assets/titleImages/${animeDetails.titleImg}`} />
                     </div>
 
                     <p>{animeDetails.description}</p>
-
                     <p>Release Year : {animeDetails.release_year}</p>
 
                     <div className="genreContainer" >{showGenre}</div>
                 </div>
             </div>
+
+            <div className="episode-container">
+                <h2>Episodes</h2>
+
+                <div className="season-dropdown">
+                    <span>Season : </span>
+                    <select className="dropdown" onChange={(e) => handleSeasonChange(e)}>
+                        {seasons}
+                    </select>
+                </div>
+            </div>
+
+
+            <EpisodeList season={currentSeason} allEpisodes={animeSeasons} />
         </div>
     )
 }

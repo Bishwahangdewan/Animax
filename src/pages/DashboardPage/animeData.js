@@ -44,9 +44,71 @@ export const AnimeData = [
                 description: "Follows the adventures of Monkey D. Luffy and his pirate crew in order to find the greatest treasure ever left by the legendary Pirate, Gold Roger. The famous mystery treasure named One Piece.",
                 genre: ['animation', 'action', 'adventure'],
                 release_year: '1999',
-                no_of_seasons: 'NA',
+                no_of_seasons: '20',
                 img: 'one-piece.jpg',
-                titleImg: 'one-piece.png'
+                titleImg: 'one-piece.png',
+                episodes: [
+                    {
+                        season: "1",
+                        season_episodes: [
+                            {
+                                episode_no: "1",
+                                episode_title: "I'm Luffy! The Man Who's Gonna Be King of the Pirates!",
+                                episode_description: "The series begins with an attack on a cruise ship at the hands of Alvida. Coby, a slave of Alvida, discovers a barrel.",
+                                episode_thumbnail_url: "",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_no: "2",
+                                episode_title: "Enter the Great Swordsman! Pirate Hunter Roronoa Zoro!",
+                                episode_description: "Luffy and Coby arrive at an island with a large Marine base, where Luffy discovers the swordsman, Roronoa Zoro tied to a pole.",
+                                episode_thumbnail_url: "",
+                                episode_video_url: ""
+                            }
+                        ]
+                    },
+
+                    {
+                        season: "2",
+                        season_episodes: [
+                            {
+                                episode_no: "62",
+                                episode_title: "Angry Final! Cross The Red Line!",
+                                episode_description: "As the Straw Hats ride down Reverse Mountain into the Grand Line, a huge whale appears in front of them. ",
+                                episode_thumbnail_url: "",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_no: "63",
+                                episode_title: "The First Obstacle? Giant Whale Laboon Appears",
+                                episode_description: "While guiding them out of the giant whale Laboon, its caretaker, Crocus, tells the whale's story to the Straw Hats, that it was left behind by a group of pirates when they began their journey through the Grand Line.",
+                                episode_thumbnail_url: "",
+                                episode_video_url: ""
+                            }
+                        ]
+                    },
+
+                    {
+                        season: "3",
+                        season_episodes: [
+                            {
+                                episode_no: "78",
+                                episode_title: "Nami's Sick? Beyond the Snow Falling on the Sea!",
+                                episode_description: "Nami is sick, but the crew doesn't have a doctor to help her.",
+                                episode_thumbnail_url: "",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_no: "79",
+                                episode_title: "A Raid! The Tin Tyrant and Tin Plate Wapol!",
+                                episode_description: "While looking for a doctor, the crew meets the pirate Wapol, who attacks them while trying to eat their ship with his Munch-Munch Fruit power, but only makes Luffy send him flying.",
+                                episode_thumbnail_url: "",
+                                episode_video_url: ""
+                            }
+                        ]
+                    }
+
+                ]
             },
             {
                 id: "vC_aSHTiF0ihO_5I64LCtg",
