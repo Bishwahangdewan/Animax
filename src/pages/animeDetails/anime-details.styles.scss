@@ -1,0 +1,58 @@
+.anime-details-container{
+    position:relative;
+
+    .dark-overlay{
+        position:absolute;
+        background-color: #000;
+        width:100vh;
+        height:85vh;
+        border-top-right-radius:60%;
+        border-bottom-right-radius:60%;
+        filter:blur(80px);
+        opacity:0.6;
+        margin-left:-80px;
+    }
+
+    .details-top{
+        height:85vh;
+        width:100%;
+
+        .details-content{
+            width:90%;
+            margin:auto;
+            padding-top:10%;
+            position:relative;
+            z-index: 1000;
+
+            .title-image{
+
+                img{
+                    width:350px;
+                }
+            }
+
+            p{
+                width:50%;
+                padding-top:30px;
+                line-height: 1.7;
+                font-size: 16px;
+                font-weight: 300;
+            }
+
+            .genreContainer{
+                display:flex;
+                padding-top:30px;
+            }
+        }
+
+        &:before{
+            content:'';
+            position:absolute;
+            bottom:0;
+            width:100%;
+            height:150px;
+            background:linear-gradient(to top , #000 , transparent);
+            z-index:10000;
+        }
+    }
+}

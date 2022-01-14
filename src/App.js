@@ -9,6 +9,7 @@ import Header from './components/header/Header.component';
 import SignIn from './pages/signInPage/signin.pages';
 import SignUp from './pages/signupPage/signup.pages';
 import Dashboard from './pages/DashboardPage/dashboard.pages';
+import AnimeDetails from './pages/animeDetails/AnimeDetailspages';
 
 //import Firebase Services
 import { auth, onAuthStateChanged } from './firebase/firebase';
@@ -51,6 +52,7 @@ class App extends React.Component {
           <Route path="/signin" element={this.state.uid ? <Navigate to="/dashboard" /> : <SignIn />} />
           <Route path="/signup" element={this.state.uid ? <Navigate to="/dashboard" /> : <SignUp />} />
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/animeDetails/:id" element={<AnimeDetails />} />
         </Routes>
       </div>
     )

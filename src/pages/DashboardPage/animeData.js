@@ -45,7 +45,8 @@ export const AnimeData = [
                 genre: ['animation', 'action', 'adventure'],
                 release_year: '1999',
                 no_of_seasons: 'NA',
-                img: 'one-piece.jpg'
+                img: 'one-piece.jpg',
+                titleImg: 'one-piece.png'
             },
             {
                 id: "vC_aSHTiF0ihO_5I64LCtg",
