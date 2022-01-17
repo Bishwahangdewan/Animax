@@ -1,12 +1,23 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 //styles
 import './episode-list.styles.scss';
 
-const EpisodeList = ({ season, allEpisodes }) => {
-    console.log(season, allEpisodes)
+//import components
+import SingleEpisode from '../SingleEpisode/SingleEpisode.component';
+
+const EpisodeList = ({ allEpisodes }) => {
+
+    const singleEpisodeDisplay = (
+        <div>
+            {allEpisodes.season_episodes.map((episode, index) => <SingleEpisode key={index} episode={episode}></SingleEpisode>)}
+        </div>
+    )
+
     return (
-        <div></div>
+        <div className="episode-list-container">
+            {singleEpisodeDisplay}
+        </div>
     )
 }
 

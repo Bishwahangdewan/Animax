@@ -1,0 +1,83 @@
+.single-episode-container{
+    color:#fff;
+
+    .episode-hover-container{
+        display:flex;
+        padding:30px;
+        transition: 0.3s;
+        cursor:pointer;
+        
+
+        .episode-no{
+            padding-top:30px;
+            font-size:20px;
+            font-family: Oswald;
+        }
+       
+    
+        .episode-img-container{
+            width: 150px;
+            height:90px;
+            margin-left: 50px;
+            overflow:hidden;
+            position:relative;
+            
+            
+    
+            img{
+                height:100%;
+                width:100%;
+                transition:0.3s;
+            }
+
+            .play-button-icon{
+                position:absolute;
+                left:30%;
+                top:17%;
+                z-index:5000;
+                color:white;
+                font-size: 60px;
+            }
+
+            
+        }
+    
+        .episode-details{
+           margin-left:40px;
+           padding: 5px 20px;
+           box-sizing: border-box;
+    
+           .episode-title{
+                font-family: Oswald;
+                font-size: 25px;
+
+                .episode-link{
+                    color:white;
+                    text-decoration:none;
+
+                    &:hover{
+                        color:#ffea00;
+                    }
+                }
+           }
+    
+           .episode-desc{
+               padding-top:5px;
+               font-size: 14px;
+           }
+        }
+    
+        &:hover{
+            background-color: #555;
+        }
+
+        &:hover .episode-img-container{
+
+            img{
+                transform: scale(1.2);
+            }
+        }
+
+    }
+
+}

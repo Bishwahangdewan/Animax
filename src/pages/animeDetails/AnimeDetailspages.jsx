@@ -16,26 +16,32 @@ import EpisodeList from '../../components/EpisodeList/EpisodeList.component';
 
 
 const AnimeDetails = () => {
-    const [animeDetails, setAnimeDetails] = useState({})
-    const [animeGenre, setAnimeGenre] = useState([])
-    const [animeSeasons, setAnimeSeasons] = useState([])
-    const [currentSeason, setCurrentSeasons] = useState(1)
+    const [animeDetails, setAnimeDetails] = useState({});
+    const [animeGenre, setAnimeGenre] = useState([]);
+    const [animeSeasons, setAnimeSeasons] = useState([]);
+    const [currentSeason, setCurrentSeasons] = useState(1);
+    const [currentSeasonDetails, setCurrentSeasonDetails] = useState({ season: "", season_episodes: [] });
 
     const { id } = useParams();
 
     useEffect(() => {
-
         AnimeData.forEach(category => {
             category.anime_list.forEach(anime => {
                 if (anime.id === id) {
                     setAnimeDetails(anime);
                     setAnimeGenre(anime.genre)
                     setAnimeSeasons(anime.episodes)
+
+                    animeSeasons.forEach(seasons => {
+                        if (parseInt(seasons.season) === currentSeason) {
+                            setCurrentSeasonDetails(seasons)
+                        }
+                    })
                 }
             })
         })
 
-    }, [])
+    }, [currentSeason, animeSeasons])
 
     //bg img
     const bgImg = {
@@ -57,7 +63,7 @@ const AnimeDetails = () => {
 
     //handle season change
     const handleSeasonChange = (e) => {
-        setCurrentSeasons(parseInt(e.target.value))
+        setCurrentSeasons(parseInt(e.target.value));
     }
 
     return (
@@ -91,7 +97,7 @@ const AnimeDetails = () => {
             </div>
 
 
-            <EpisodeList season={currentSeason} allEpisodes={animeSeasons} />
+            <EpisodeList season={currentSeason} allEpisodes={currentSeasonDetails} />
         </div>
     )
 }
