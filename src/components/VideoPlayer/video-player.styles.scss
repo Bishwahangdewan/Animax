@@ -1,0 +1,11 @@
+.video-player-container{
+    position:relative;
+    z-index: 10000;
+    background-color: #000;
+
+    video{
+        height:100vh;
+        display:block;
+        margin:auto;
+    }
+}

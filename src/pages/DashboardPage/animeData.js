@@ -52,6 +52,7 @@ export const AnimeData = [
                         season: "1",
                         season_episodes: [
                             {
+                                episode_id: "G1BEmSqOW0OZW5fYmqNBSQ",
                                 episode_no: "1",
                                 episode_title: "I'm Luffy! The Man Who's Gonna Be King of the Pirates!",
                                 episode_description: "The series begins with an attack on a cruise ship at the hands of Alvida. Coby, a slave of Alvida, discovers a barrel.",
@@ -59,6 +60,7 @@ export const AnimeData = [
                                 episode_video_url: ""
                             },
                             {
+                                episode_id: "ffyxqXGF8U61FEW4-5xewA",
                                 episode_no: "2",
                                 episode_title: "Enter the Great Swordsman! Pirate Hunter Roronoa Zoro!",
                                 episode_description: "Luffy and Coby arrive at an island with a large Marine base, where Luffy discovers the swordsman, Roronoa Zoro tied to a pole.",
@@ -72,6 +74,7 @@ export const AnimeData = [
                         season: "2",
                         season_episodes: [
                             {
+                                episode_id: "db0SvbHKdUuXEUhdLuI_1A",
                                 episode_no: "62",
                                 episode_title: "Angry Final! Cross The Red Line!",
                                 episode_description: "As the Straw Hats ride down Reverse Mountain into the Grand Line, a huge whale appears in front of them. ",
@@ -79,6 +82,7 @@ export const AnimeData = [
                                 episode_video_url: ""
                             },
                             {
+                                episode_id: "b45JGH5KP0K7luckjTnSnA",
                                 episode_no: "63",
                                 episode_title: "The First Obstacle? Giant Whale Laboon Appears",
                                 episode_description: "While guiding them out of the giant whale Laboon, its caretaker, Crocus, tells the whale's story to the Straw Hats, that it was left behind by a group of pirates when they began their journey through the Grand Line.",
@@ -92,6 +96,7 @@ export const AnimeData = [
                         season: "3",
                         season_episodes: [
                             {
+                                episode_id: "ESVhVmBtGUCQ15lwqse8Xg",
                                 episode_no: "78",
                                 episode_title: "Nami's Sick? Beyond the Snow Falling on the Sea!",
                                 episode_description: "Nami is sick, but the crew doesn't have a doctor to help her.",
@@ -99,6 +104,7 @@ export const AnimeData = [
                                 episode_video_url: ""
                             },
                             {
+                                episode_id: "jwOuma9iPE6WTnXcAeDBRw",
                                 episode_no: "79",
                                 episode_title: "A Raid! The Tin Tyrant and Tin Plate Wapol!",
                                 episode_description: "While looking for a doctor, the crew meets the pirate Wapol, who attacks them while trying to eat their ship with his Munch-Munch Fruit power, but only makes Luffy send him flying.",

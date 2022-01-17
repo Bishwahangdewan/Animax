@@ -26,7 +26,7 @@ const SingleEpisode = ({ episode }) => {
                     <Icon className="play-button-icon" icon="gg:play-button-o" />
                 </div>
                 <div className="episode-details">
-                    <p className="episode-title"><Link className="episode-link" to="/">{episode.episode_title}</Link></p>
+                    <p className="episode-title"><Link className="episode-link" to={`/video/${id}/${episode.episode_id}`}>{episode.episode_title}</Link></p>
                     <p className="episode-desc">{episode.episode_description}</p>
                 </div>
             </div>
