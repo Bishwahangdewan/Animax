@@ -13,6 +13,9 @@ import { auth, signOut } from '../../firebase/firebase';
 //import components
 import Loader from '../loader/loader.component';
 
+//import iconify
+import { Icon } from '@iconify/react';
+
 import './header.styles.scss';
 
 const Header = ({ loggedinUser }) => {
@@ -52,6 +55,9 @@ const Header = ({ loggedinUser }) => {
                             <Link className="nav-link" to="/signin">Home</Link>
                             <Link className="nav-link" to="/signin">Anime Shows</Link>
                             <Link className="nav-link" to="/signin">Anime Movies</Link>
+                            <Link className="nav-link" to="/search">
+                                <span>Search</span> <Icon className="search-icon" icon="octicon:search-16" />
+                            </Link>
                             <a className="nav-link" onClick={() => handleLogout()}>Logout</a>
                         </nav>
                         :

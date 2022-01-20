@@ -16,7 +16,7 @@
        
     
         .episode-img-container{
-            width: 150px;
+            width: 200px;
             height:90px;
             margin-left: 50px;
             overflow:hidden;
@@ -43,9 +43,9 @@
         }
     
         .episode-details{
-           margin-left:40px;
-           padding: 5px 20px;
+           padding: 5px 50px;
            box-sizing: border-box;
+           width:100%;
     
            .episode-title{
                 font-family: Oswald;
@@ -64,6 +64,7 @@
            .episode-desc{
                padding-top:5px;
                font-size: 14px;
+               line-height: 1.6;
            }
         }
     

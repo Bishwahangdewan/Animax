@@ -1,0 +1,45 @@
+.search-item-container{
+    padding:20px;
+    display:flex;
+    transition:0.3s;
+
+    .search-img-container{
+        width:200px;
+        height:110px;
+        border:1px solid #333;
+        border-radius: 3px;
+        transition:0.3s;
+    }
+
+    .search-content-container{
+        margin-left:100px;
+
+        h2{
+            font-family: Oswald;
+        }
+
+        .search-details-link{
+            display:block;
+            margin-top:15px;
+
+            .search-link{
+                color:#fff;
+                text-decoration: none;
+            }
+    
+            .search-link-icon{
+                color:#fff;
+                font-size: 20px;
+            }
+        }
+    }
+
+    &:hover{
+        background-color: #555;
+    }
+
+    &:hover .search-img-container{
+        transform: scale(1.3);
+    }
+
+}

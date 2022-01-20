@@ -11,6 +11,7 @@ import SignUp from './pages/signupPage/signup.pages';
 import Dashboard from './pages/DashboardPage/dashboard.pages';
 import AnimeDetails from './pages/animeDetails/AnimeDetailspages';
 import VideoPlayer from './components/VideoPlayer/VideoPlayer.component';
+import SearchPage from './pages/SearchPage/SearchPage.pages';
 
 //import Firebase Services
 import { auth, onAuthStateChanged } from './firebase/firebase';
@@ -55,6 +56,7 @@ class App extends React.Component {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/animeDetails/:id" element={<AnimeDetails />} />
           <Route path="/video/:anime_id/:video_id" element={<VideoPlayer />} />
+          <Route path="/search" element={<SearchPage />} />
         </Routes>
       </div>
     )

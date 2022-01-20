@@ -9,7 +9,224 @@ export const AnimeData = [
                 genre: ['animation', 'action', 'adventure'],
                 release_year: '2021',
                 no_of_seasons: '3',
-                img: 'demon-slayer.jpg'
+                img: 'demon-slayer.jpg',
+                titleImg: 'demon-slayer.png',
+                episodes: [
+                    {
+                        season: "1",
+                        season_episodes: [
+                            {
+                                episode_id: "8BYvHjHVGEiHq9o-RcVXsg",
+                                episode_no: "1",
+                                episode_title: "Cruelty",
+                                episode_description: "Tanjiro Kamado's life gets turned upside down when he finds out that his family was murdered by demons.",
+                                episode_thumbnail_url: "1.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "EqwI9eIUk0uV56A2Cs1Tbw",
+                                episode_no: "2",
+                                episode_title: "Trainer Sakonji Urokodaki",
+                                episode_description: "Tanjiro and Nezuko head for Mt. Sagiri per Giyu Tomioka's urges. On their way, Tanjiro encounters another demon.",
+                                episode_thumbnail_url: "2.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "8TQLG57xAESK0I_8k7vZJw",
+                                episode_no: "3",
+                                episode_title: "Sabito and Makomo",
+                                episode_description: "The Demon Slayer Corps - An organization that's been hunting down demons since ancient times. Sakonji Urokodaki starts training Tanjiro for Final Selection, the test for joining the unit .",
+                                episode_thumbnail_url: "3.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "UpnbPbIXGkes-o6ArbYUpg",
+                                episode_no: "4",
+                                episode_title: "Final Selection",
+                                episode_description: "To pass the Final Selection, Tanjiro uses the techniques he learned from Sakonji Urokodaki and begins his fight against a demon on Mt. Fajikasane.",
+                                episode_thumbnail_url: "4.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "Q1gsliKobUSMF-DVKpDi_A",
+                                episode_no: "5",
+                                episode_title: "My Own Steel",
+                                episode_description: "There are only four swordsmen left come dawn of the seventh day and they are issued Demon Slayer Corps uniforms and messengers crows.",
+                                episode_thumbnail_url: "5.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "Ys2aCl6HAkmySYqrJQ11pA",
+                                episode_no: "6",
+                                episode_title: "Swordsman accompanying a demon",
+                                episode_description: "In uniform and with a sword in his hand Tanjiro continues his main quest to find the demon who murdered his family.",
+                                episode_thumbnail_url: "6.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "ag0CX_xRikurpIdItn9hkA",
+                                episode_no: "7",
+                                episode_title: "Muzan Kibutsuji",
+                                episode_description: "With Tanjiro backed into a corner by demons its Nezuko's turn to attack and prove that she no longer needs her brother's protection.",
+                                episode_thumbnail_url: "7.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "_ndiPmlsiEaHtw-Fjkm_6w",
+                                episode_no: "8",
+                                episode_title: "The Smell of Enchanting Blood",
+                                episode_description: "Two demons, Tamayo and Yushiro come to Tanjiro's rescue. Tamayo guides Tanjiro and Nezuko to her house where Tanjiro learns how to return demons to humans.",
+                                episode_thumbnail_url: "8.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "V5Wrs2XX9UiSw3QBJZ6vtQ",
+                                episode_no: "9",
+                                episode_title: "Temari Demon and Arrow Demon",
+                                episode_description: "Two demons, Tamayo and Yushiro come to Tanjiro's rescue. Tamayo guides Tanjiro and Nezuko to her house where Tanjiro learns how to return demons to humans.",
+                                episode_thumbnail_url: "9.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "qzeZRPc640qluoBQVHDP2Q",
+                                episode_no: "10",
+                                episode_title: "Together Forever",
+                                episode_description: "With Tamayo coming to Nezuko's aid the battle reaches its climax. Tanjiro learns about the Twelve Demon Moons organization.",
+                                episode_thumbnail_url: "10.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "O39RzpDgykaaGOXwS8Z4Gg",
+                                episode_no: "11",
+                                episode_title: "Tsuzumi Mansion",
+                                episode_description: "Tanjiro heads to his next location southeast; on the way he meats Zenitsu, one of the swordsmen of the FInal Selection.",
+                                episode_thumbnail_url: "11.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "NJBDkcFVfkKkUh_xQGAmHw",
+                                episode_no: "12",
+                                episode_title: "The Boar Bares Its Fangs, Zenitsu Sleeps",
+                                episode_description: "Tanjiro gets separated from Zenitsu when he enters a mysterious house where he encounters another demon and someone else.",
+                                episode_thumbnail_url: "12.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "tXsAPkPKCUS2yHmS-Uautg",
+                                episode_no: "13",
+                                episode_title: "Something More Important Than Life",
+                                episode_description: "Inside the mysterious house, Tanjiro battles Kyogai - The Drum Demon while Zenitsu tries to bring Shoichi to safety.",
+                                episode_thumbnail_url: "13.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "bpgLMmwB9k2W121_0YXsrg",
+                                episode_no: "14",
+                                episode_title: "The House with the Wisteria Family Crest",
+                                episode_description: "After defeating Kyogai, Tanjiro steps outside where he spots Inosuke who is eager to fight him. After a short tussle Tanjiro, Inosuke , Nezuko and Zenitsu head to a manor where they are taken in by an old woman.",
+                                episode_thumbnail_url: "14.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "pdD1Y8XHDU6GUee6qSqg4w",
+                                episode_no: "15",
+                                episode_title: "Mount Natagumo",
+                                episode_description: "Tanjiro heads to his next location to a mountain northwest and he brings Inosuke and Zenitsu with him. Upon arriving on the spiderweb swarmed mountain Tanjiro and Inosuke soon run into Demon Slayers entangled in spider webs.",
+                                episode_thumbnail_url: "15.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "AUtjy9yjzEqOyS2Zj_Dk9A",
+                                episode_no: "16",
+                                episode_title: "Letting Someone Else Go First",
+                                episode_description: "Tanjiro and Inosuke head farther up the mountain while battling Demon Slayers trapped by spider webs. Soon they find out that the Spider Demon family is behind it all.",
+                                episode_thumbnail_url: "16.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "FaesNfBKXEu5MDxtzfTiAg",
+                                episode_no: "17",
+                                episode_title: "You Must Master a Single Thing",
+                                episode_description: "Zenitsu finds himself alone in the woods where he encounters a spider with a human face. Despite being terrified he does his best and manages to defeat the spider human using a new technique.",
+                                episode_thumbnail_url: "17.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "166E_za2mEmJbaX8z3tNaQ",
+                                episode_no: "18",
+                                episode_title: "A Forged Bond",
+                                episode_description: "High up on the mountain Tanjiro and Inosuke face off against Father Spider Demon, one of the Twelve Demon Moons (or at least they think so).",
+                                episode_thumbnail_url: "18.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "EgXRlmQzxE2D_Zg2ezYmwQ",
+                                episode_no: "19",
+                                episode_title: "Hinokami",
+                                episode_description: "Inosuke confronts his savior. Zenitsu lies still near his death. Tanjiro faces what seems to be an unstoppable enemy, and in a moment of desperation, recalls his past.",
+                                episode_thumbnail_url: "19.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "36ABbCYJokO4YYmYIRt_gQ",
+                                episode_no: "20",
+                                episode_title: "Pretend Family",
+                                episode_description: "With his life flashing before his eyes Rui remembers the family he created. Meanwhile, Shinobu arrives on the mountain to stop Rui's older sister.",
+                                episode_thumbnail_url: "20.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "eXnCRm_ITU-Wj957khh6zQ",
+                                episode_no: "21",
+                                episode_title: "Against Corps Rules",
+                                episode_description: "Inosuke confronts his savior. Zenitsu lies still near his death. Tanjiro faces what seems to be an unstoppable enemy, and in a moment of desperation, recalls his past.",
+                                episode_thumbnail_url: "19.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "qPcebvQ5H0qaRmMVSKFadg",
+                                episode_no: "22",
+                                episode_title: "Master of the Mansion",
+                                episode_description: "With the battle reaching its conclusion Tanjiro and Nezuko arrive at Demon Slayer Corps headquarters where their bond is tested once again.",
+                                episode_thumbnail_url: "22.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "kc-vnWzIVUCtcYR1kbruqA",
+                                episode_no: "23",
+                                episode_title: "Hashira Meeting",
+                                episode_description: "Ubuyashiki, the leader of the Demon Slayer Corps, finally appears before Tanjiro. He tells him that he will allow Tanjiro and Nezuko to join the Corps. But the Hashiras are unable to accept this decision right away.",
+                                episode_thumbnail_url: "23.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "j7nG8FtDYUm0C7a73bDUSw",
+                                episode_no: "24",
+                                episode_title: "Rehabilitation Training",
+                                episode_description: "The injured Tanjiro, Zenitsu and Inosuke are sent to the home of the Insect Hashira, Shinobu Kocho, for treatment. Two weeks later, Tanjiro and Inosuke start rehabilitation training.",
+                                episode_thumbnail_url: "24.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "tUHzfoxNLUa6Rx8cHDO8FA",
+                                episode_no: "25",
+                                episode_title: "Tsuguko, Kanao Tsuyuri",
+                                episode_description: "Tanjiro, who's undergoing rehabilitation training at the Butterfly Mansion, works hard to keep up his Total Concentration Breathing techniques all day long. ",
+                                episode_thumbnail_url: "25.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "6nD6SJmwPEC3zxxqCGGy7g",
+                                episode_no: "26",
+                                episode_title: "New Mission",
+                                episode_description: "As Tanjiro and the others are devoted to their rehabilitation training, the absolute master of the demons, Muzan Kibutsuji, gathers the Lower Ranks of the Twelve Kizuki. The demons, too, are preparing to make their next move.",
+                                episode_thumbnail_url: "26.jpg",
+                                episode_video_url: ""
+                            }
+
+                        ]
+                    }
+                ]
             },
             {
                 id: "PYbzzYSIgUqNGjOm2hltCw",

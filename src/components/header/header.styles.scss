@@ -3,7 +3,7 @@
     width:100%;
     top:0;
     border-bottom:2px solid #ffea00;
-    z-index:1000;
+    z-index:100000;
 
     div{
         width:90%;
@@ -21,6 +21,14 @@
                 font-weight: 900;
                 transition: 0.3s;
                 padding-left:20px;
+                position:relative;
+
+                .search-icon{
+                    position: relative;
+                    top:2px;
+                    left:2px;
+
+                }
 
                 &:hover{
                     color:#ffea00;
