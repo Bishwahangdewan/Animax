@@ -16,17 +16,18 @@ const SearchPage = () => {
     const [searchResult, setSearchResult] = useState([]);
 
     useEffect(() => {
-        let finalResult = [];
+        if (searchValue !== "") {
+            let finalResult = [];
 
-        AnimeData.forEach(category => {
-            let categoryResults = [];
-            categoryResults = category.anime_list.filter(anime => anime.title.toLowerCase().includes(searchValue))
+            AnimeData.forEach(category => {
+                let categoryResults = [];
+                categoryResults = category.anime_list.filter(anime => anime.title.toLowerCase().includes(searchValue))
 
-            categoryResults.forEach(result => finalResult.push(result));
-        })
+                categoryResults.forEach(result => finalResult.push(result));
+            })
 
-        setSearchResult(finalResult);
-
+            setSearchResult(finalResult);
+        }
     }, [searchValue])
 
     const handleOnChange = (e) => {
@@ -38,6 +39,7 @@ const SearchPage = () => {
             <SearchBox handleOnChange={(e) => handleOnChange(e)} />
 
             <SearchResults searchResult={searchResult} />
+
         </div>
     )
 }

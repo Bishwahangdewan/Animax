@@ -21,15 +21,26 @@
         .search-details-link{
             display:block;
             margin-top:15px;
+            position:relative;
+            transition:0.3s;
 
             .search-link{
                 color:#fff;
                 text-decoration: none;
+                transition:0.3s;
             }
     
             .search-link-icon{
                 color:#fff;
                 font-size: 20px;
+                position:absolute;
+                top:0px;
+                left:45px;
+                transition:0.3s;
+            }
+
+            &:hover .search-link , &:hover .search-link-icon{
+                color:#ffea00;
             }
         }
     }

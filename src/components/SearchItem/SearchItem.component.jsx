@@ -23,7 +23,7 @@ const SearchItem = ({ anime }) => {
             <div className='search-content-container'>
                 <h2>{anime.title}</h2>
 
-                <Link className='search-details-link' to="/"><span className='search-link'>More</span> <Icon className="search-link-icon" icon="carbon:information-filled" /></Link>
+                <Link className='search-details-link' to={`/animeDetails/${anime.id}`}><span className='search-link'>More</span> <Icon className="search-link-icon" icon="carbon:information-filled" /></Link>
             </div>
         </div>
     )
