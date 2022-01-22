@@ -235,7 +235,215 @@ export const AnimeData = [
                 genre: ['animation', 'action', 'adventure'],
                 release_year: '2013',
                 no_of_seasons: '4',
-                img: 'attack-on-titan.jpg'
+                img: 'attack-on-titan.jpg',
+                titleImg: 'attack-on-titan.png',
+                episodes: [
+                    {
+                        season: "1",
+                        season_episodes: [
+                            {
+                                episode_id: "2kxwv_8hNkCfT0lQWXXoIw",
+                                episode_no: "1",
+                                episode_title: "To You, in 2000 Years: The Fall of Shiganshina",
+                                episode_description: "Shiganshina, one of mankind forefront defenses against its biggest threat: the titans. Here the lives of Eren Yeager, Mikasa Ackerman and Armin Arlet are seemingly peaceful, but a sudden attack shows them the brutality of this world.",
+                                episode_thumbnail_url: "1.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "hxQVpaxKBk2wS9YG5OKzWw",
+                                episode_no: "2",
+                                episode_title: "That Day: The Fall of Shiganshina",
+                                episode_description: "After the Titans break through the wall, the citizens of Shiganshina must run for their lives. Those that do make it to safety find a harsh life waiting for them, however.",
+                                episode_thumbnail_url: "2.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "4s-b-ZaVAkyKjoJpqyocwQ",
+                                episode_no: "3",
+                                episode_title: "A Dim Light Amid Despair: Humanity's Comeback",
+                                episode_description: "Eren begins his training with the Cadet Corps, but questions about his painful past overwhelm him. When he struggles with a maneuvering exercise, Berholt and Reiner offer kindly advice.",
+                                episode_thumbnail_url: "3.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "nq9Fw0t1bUK6tXdAOqqcHg",
+                                episode_no: "4",
+                                episode_title: "The Night of the Closing Ceremony: Humanity's Comeback",
+                                episode_description: "Annie proves her skill in a sparring session, Jan dreams of serving alongside the King, and graduation day brings shocking revelations - along with a sudden outbreak of violence.",
+                                episode_thumbnail_url: "4.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "HDUk2HXW0kWATScY4tzsMQ",
+                                episode_no: "5",
+                                episode_title: "First Battle: The Struggle for Trost",
+                                episode_description: "The Colossal Titan appears, and a horde of titans after him. Reluctant to repeat the story of Shiganshina, Eren and the scouts are determined to fight for Trost, unaware that this isn't as easy as they might have thought.",
+                                episode_thumbnail_url: "5.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "HDUk2HXW0kWATScY4tzsMQ",
+                                episode_no: "6",
+                                episode_title: "The World the Girl Saw: The Struggle for Trost",
+                                episode_description: "Armin tries to cope with the loss of his friends and allies after Titans massacre his squad. Elsewhere in the city, Mikasa manages to take out several of the monsters, which brings back tragic memories of her past and the first time she met Eren.",
+                                episode_thumbnail_url: "6.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "HDUk2HXW0kWATScY4tzsMQ",
+                                episode_no: "7",
+                                episode_title: "Small Blade: The Struggle for Trost",
+                                episode_description: "Cornered by the titans and out of gas, the desperation takes over the scouts. After hearing the news about Armin's squad, Mikasa encourages her mates in order to continue fighting at any cost.",
+                                episode_thumbnail_url: "7.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "OIKP_eoaTkighIqf4fsiYg",
+                                episode_no: "8",
+                                episode_title: "I Can Hear His Heartbeat: The Struggle for Trost",
+                                episode_description: "Armin comes up with a risky plan that pits Titan against Titan as the abandoned Cadets attempt to take back their headquarters. Getting into the building might be possible, but getting out alive and refueled will mean facing more of the giants.",
+                                episode_thumbnail_url: "8.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "m6ecDuKaN0asoIlDBKUgzg",
+                                episode_no: "9",
+                                episode_title: "Whereabouts of His Left Arm: The Struggle for Trost",
+                                episode_description: "A miraculous return is met with anger and fear. Cannons are fixed on Eren as he struggles to remember what happened to him inside the belly of a monster and how he ended up humankind's enemy. One question is all that matters: is Eren human or Titan?",
+                                episode_thumbnail_url: "9.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "eDsUnYjpgUyQz-va1KV0FA",
+                                episode_no: "10",
+                                episode_title: "Response: The Struggle for Trost",
+                                episode_description: "Cadets respond to Eren's terrifying transformation with doubt and fear as he struggles to understand it himself. If Armin can't talk the commander into using Eren's newfound powers for the good of humankind, all hope of stopping the Titans might be lost.",
+                                episode_thumbnail_url: "10.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "FX8im4IDP06iGMqnxKcmFA",
+                                episode_no: "11",
+                                episode_title: "Icon: Battle of Trost District",
+                                episode_description: "Plans are created to use Eren's Titan powers to seal the hole in the wall in an attempt reclaim Trost. But with the government's bloodstained history and vocal dissenters in the military ranks, the biggest threat to humankind may not be the Titans.",
+                                episode_thumbnail_url: "11.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "fgN4tasFC0mXpq0Iz7zIBA",
+                                episode_no: "12",
+                                episode_title: "Wound: The Struggle for Trost",
+                                episode_description: "The plan to reclaim Trost falls apart when Eren's newfound powers turn him into a mindless giant. As Titans continue to swarm the city, it's up to Armin and Mikasa to make sure the cadets massacred during the mission haven't died in vain",
+                                episode_thumbnail_url: "12.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "nRUmsMAs4Eykf83AF1cBow",
+                                episode_no: "13",
+                                episode_title: "Primal Desires: The Struggle for Trost",
+                                episode_description: "Jean manages to get another Maneuver Gear from a dead soldier and escape thanks to Annie, Connie, and Marco distracting the Titans.",
+                                episode_thumbnail_url: "13.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "ZCU8ZSY75kGr--UtzBB5Sg",
+                                episode_no: "14",
+                                episode_title: "Can't Look Into His Eyes Yet: Eve of the Counterattack",
+                                episode_description: "A special military tribunal will decide Eren's fate. The Military Police calls for his execution while the Scout Regiment argues that he is a powerful resource for humankind, and Mikasa is put on the spot when asked about the events of the Trost mission.",
+                                episode_thumbnail_url: "14.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "Zen8Dfim7E2s6GX2uQeAvw",
+                                episode_no: "15",
+                                episode_title: "Special Operations Squad: Eve of the Counterattack",
+                                episode_description: "The Scout Regiment moves Eren to an old abandoned castle where he will continue his training. Hanzi visits and reveals that she's been putting two captured Titans through a series of tests and trials - experiments that she wants Eren's help with.",
+                                episode_thumbnail_url: "15.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "dn40GPo-CUO8K2FaPADcvQ",
+                                episode_no: "16",
+                                episode_title: "What Needs to Be Done Now: Eve of the Counterattack",
+                                episode_description: "Everyone is a suspect in the investigation to find out who killed the two test-subject Titans. Meanwhile, the Cadets pick which corps they'll be joining, but after the harrowing events in the Trost attack, many are uncertain which branch to choose.",
+                                episode_thumbnail_url: "16.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "gjYHGgs0hEeTqffx4p7_Ag",
+                                episode_no: "17",
+                                episode_title: "Female Titan: The 57th Expedition Beyond the Walls",
+                                episode_description: "As the Scout Regiment begins its push toward Shiganshina, they encounter an intelligent Female Titan unlike any they've seen before. When Armin hypothesizes that it's really a human that's been turned into a Titan, he, Jean, and Reiner attempt to stop it.",
+                                episode_thumbnail_url: "17.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "UN0D03C7RE-JpK0kTlcjow",
+                                episode_no: "18",
+                                episode_title: "Forest of Giant Trees: The 57th Expedition Beyond the Walls",
+                                episode_description: "Armin, Reiner, and Jean are left stranded after their encounter with the Female Titan leaves them with only one horse, but they are soon saved by Krista who arrives with extra horses.",
+                                episode_thumbnail_url: "18.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "hvJKi7L_aU6FXsA-ynugog",
+                                episode_no: "19",
+                                episode_title: "Bite: The 57th Exterior Scouting Mission",
+                                episode_description: "Levi fires a noise round and tells the squad to keep moving forward. With more of the rearguard getting killed by the Female Titan, Eren begs his squad to let him fight but they tell him to trust Levi's decision.",
+                                episode_thumbnail_url: "19.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "k2RZhx-RVk24LY1kUWWKNA",
+                                episode_no: "20",
+                                episode_title: "Erwin Smith: The 57th Expedition Beyond the Walls",
+                                episode_description: "The Female Titan has been captured, and it's Erwin's goal to find out who the human is lurking inside it. Meanwhile, the Scouts realize that the reason Levi told no one about their true mission outside the wall is because there is a spy among their ranks.",
+                                episode_thumbnail_url: "20.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "g4E77n6D-Uy8tTAXI2E5JA",
+                                episode_no: "21",
+                                episode_title: "Iron Hammer: The 57th Expedition Beyond the Walls",
+                                episode_description: "Managing to get out of Erwin's trap, the Female Titan transforms once more and chases after Levi's squad, who fight back in a deadly clash.",
+                                episode_thumbnail_url: "21.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "ie-Yg0hikEOVIJE-E9lFRw",
+                                episode_no: "22",
+                                episode_title: "The Defeated: The 57th Expedition Beyond the Walls",
+                                episode_description: "Levi orders Mikasa to distract the Female Titan in order to get Eren back. Levi launches a successful high-speed attack that debilitates the Female Titan, but Mikasa leaves herself vulnerable when she tries to finish the Female Titan.",
+                                episode_thumbnail_url: "22.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "3JeriYOHTEuyTiNyHwN25A",
+                                episode_no: "23",
+                                episode_title: "Smile: Raid on Stohess District",
+                                episode_description: "Annie has a dream of being trained by her father before waking up. In the Stohess District of Wall Sina, the Military Police are ordered to escort the Recon Corps convoy once they enter the capital.",
+                                episode_thumbnail_url: "23.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "3igRA8etSiUiacGEiPXt6lg",
+                                episode_no: "24",
+                                episode_title: "Mercy: Raid on Stohess District",
+                                episode_description: "Days before Eren is escorted to the capital, Erwin and Armin reveal to him they have a plan to capture the person they believe is the Female Titan and is shocked when they tell him it is Annie..",
+                                episode_thumbnail_url: "24.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "aSdYfxkP1E2JHC-l2Y-Pww",
+                                episode_no: "25",
+                                episode_title: "Wall: Raid on Stohess District",
+                                episode_description: "A final battle between Eren and The Female Titan breaks out in the Stonhess District, and Eren's rage reaches new heights.",
+                                episode_thumbnail_url: "25.jpg",
+                                episode_video_url: ""
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 id: "gTNbexj63kSJQz8PtNGyeQ",
@@ -244,7 +452,8 @@ export const AnimeData = [
                 genre: ['animation', 'action', 'adventure'],
                 release_year: '2019',
                 no_of_seasons: '2',
-                img: 'one-punch-man.jpg'
+                img: 'one-punch-man.jpg',
+                titleImg: 'one-punch-man.png'
             },
             {
                 id: "mmlGEo7bLEuUbzLZpTL5fg",
@@ -253,7 +462,8 @@ export const AnimeData = [
                 genre: ['animation', 'action', 'adventure'],
                 release_year: '2016',
                 no_of_seasons: '5',
-                img: 'my-hero-academia.jpg'
+                img: 'my-hero-academia.jpg',
+                titleImg: 'my-hero-academia.png'
             },
             {
                 id: "laf5pDsIIUy3eyksAsW5Ew",
@@ -340,7 +550,8 @@ export const AnimeData = [
                 genre: ['animation', 'comedy', 'drama'],
                 release_year: '2015',
                 no_of_seasons: '4',
-                img: 'food-wars.jpg'
+                img: 'food-wars.jpg',
+                titleImg: 'food-wars.png'
             },
             {
                 id: "JERP8IdMCkKyzu4ym2d35w",
@@ -349,7 +560,8 @@ export const AnimeData = [
                 genre: ['animation', 'action', 'adventure'],
                 release_year: '2009',
                 no_of_seasons: 'NA',
-                img: 'fullmetal-alchemist.jpg'
+                img: 'fullmetal-alchemist.jpg',
+                titleImg: 'fullmetal-alchemist.png'
             },
             {
                 id: "PR3fbLJpw0mWYSNPT31YHg",
@@ -358,7 +570,8 @@ export const AnimeData = [
                 genre: ['comedy', 'drama', 'sports'],
                 release_year: '2014',
                 no_of_seasons: '4',
-                img: 'haikyuu.jpg'
+                img: 'haikyuu.jpg',
+                titleImg: 'haikyuu.png'
             },
             {
                 id: "aZ5wFE5SkkC0NPnJatYKow",
@@ -367,7 +580,8 @@ export const AnimeData = [
                 genre: ['animation', 'drama', 'comedy'],
                 release_year: '2011',
                 no_of_seasons: '1',
-                img: 'steins-gate.jpg'
+                img: 'steins-gate.jpg',
+                titleImg: 'steins-gate.png'
             },
             {
                 id: "l_I0w_zvGECTRYnN3t4Ajg",
@@ -376,7 +590,8 @@ export const AnimeData = [
                 genre: ['animation', 'action', 'adventure'],
                 release_year: '2017',
                 no_of_seasons: 'NA',
-                img: 'boruto.jpg'
+                img: 'boruto.jpg',
+                titleImg: 'boruto.png'
             },
             {
                 id: "ssdEvBm2gEKCTH4ap33-gA",
@@ -385,7 +600,8 @@ export const AnimeData = [
                 genre: ['fantasy', 'action', 'adventure'],
                 release_year: '2016',
                 no_of_seasons: '5',
-                img: '7-deadly-sins.jpg'
+                img: '7-deadly-sins.jpg',
+                titleImg: '7-deadly-sins.png'
             },
             {
                 id: "M9kx6HjTQEC9fdBmNouPcg",
@@ -394,7 +610,8 @@ export const AnimeData = [
                 genre: ['animation', 'action'],
                 release_year: '2019',
                 no_of_seasons: '1',
-                img: 'jujutsu-kaisen.jpg'
+                img: 'jujutsu-kaisen.jpg',
+                titleImg: 'jujutsu-kaisen.png'
             }
         ]
     },

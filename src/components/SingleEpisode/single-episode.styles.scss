@@ -82,3 +82,28 @@
     }
 
 }
+
+@media(max-width:720px){
+    .single-episode-container{
+
+        .episode-hover-container{
+            padding:10px;
+
+            .episode-img-container{
+                margin-left:20px;
+            }
+
+            .episode-details{
+                padding:0px 20px;
+
+                .episode-title{
+                    font-size:16px;
+                }
+
+                .episode-desc{
+                    display:none;
+                }
+            }
+        }
+    }
+}

@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 //import styles
 import './topDisplay.styles.scss';
 
 //import assets
-import DisplayImage from '../../assets/displayImages/your_name.jpg';
 import Video from '../../assets/video/your_name.mp4';
+import { AnimeData } from '../../pages/DashboardPage/animeData';
 
 //import components
 import CustomButton from '../custom-button/CustomButton.component';
@@ -13,10 +13,20 @@ import CustomButton from '../custom-button/CustomButton.component';
 const TopDisplay = () => {
 
     const [toggleVideo, setToggleVideo] = useState(false);
+    const [topDisplayData, setTopDisplayData] = useState({});
+
+    useEffect(() => {
+        AnimeData.forEach(category => {
+            if (category.label === "Most Popular") {
+                let index = Math.floor(Math.random() * 10);
+                setTopDisplayData(category.anime_list[index]);
+            }
+        })
+    }, [])
 
     //background image
     const backImg = {
-        backgroundImage: `url(${DisplayImage})`,
+        backgroundImage: `url(/assets/displayImages/dashboard-cover/${topDisplayData.img})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center'
     }
@@ -46,8 +56,10 @@ const TopDisplay = () => {
 
             <div className='container'>
                 <div className='display-content'>
-                    <h1>Your Name</h1>
-                    <p> Bored of the town, Mitsuha Miyamizu a high school girl wishes to be a Tokyo boy in her next life. One day, she inexplicably begins to switch bodies intermittently with Taki Tachibana.</p>
+                    <div className="dashboard-title-image-container">
+                        <img className="dashboard-title-image" src={`/assets/titleImages/${topDisplayData.titleImg}`} />
+                    </div>
+                    <p>{topDisplayData.description}</p>
 
                     <div className="button-container">
                         <CustomButton>View Details</CustomButton>

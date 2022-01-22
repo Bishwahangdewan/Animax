@@ -90,3 +90,35 @@
         }
     }
 }
+
+@media(max-width:720px) {
+    .anime-details-container{
+
+        .details-top{
+            height:80vh;
+            background-position: center;
+
+            .details-content{
+                width:90%;
+                padding-top:120px;
+
+                .title-image{
+                    width:180px;
+                }
+
+                p{
+                    font-size: 14px;
+                    width:100%;
+                }
+
+                .genreContainer{
+                    .genre{
+                        padding:5px 10px;
+                    }
+                }
+            }
+        }
+    }        
+}
+
+
