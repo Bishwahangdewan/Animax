@@ -52,7 +52,7 @@ const CollectionPreview = ({ collection }) => {
     return (
         <div className="collection-preview-container">
             <h2 className="collection-preview-header">{collection.label}</h2>
-            <Swiper className="swiper" modules={[Pagination]} spaceBetween={5} slidesPerView={responsive ? 2 : 5} pagination={{ clickable: true }} >
+            <Swiper className="swiper" modules={[Pagination]} spaceBetween={5} slidesPerView={responsive ? 1 : 5} pagination={{ clickable: true }} >
                 {collection.anime_list.map(anime => (<SwiperSlide key={uniqid()}>
                     <div className="item">
                         <CollectionItem anime={anime} />

@@ -16,7 +16,9 @@ import Loader from '../loader/loader.component';
 //import iconify
 import { Icon } from '@iconify/react';
 
-import './header.styles.scss';
+//import styles
+import './responsive-header.styles.scss';
+
 
 const Header = ({ loggedinUser }) => {
 
@@ -51,14 +53,7 @@ const Header = ({ loggedinUser }) => {
                     {/*-------NAV LINKS--------*/}
 
                     {loggedinUser ?
-                        <nav className='="user-logged-in'>
-                            <Link className="nav-link" to="/signin">Home</Link>
-                            <Link className="nav-link" to="/signin">Anime Shows</Link>
-                            <Link className="nav-link" to="/search">
-                                <span>Search</span> <Icon className="search-icon" icon="octicon:search-16" />
-                            </Link>
-                            <a className="nav-link" onClick={() => handleLogout()}>Logout</a>
-                        </nav>
+                        ""
                         :
                         <nav className='="user-not-logged-in'>
                             <Link className="nav-link" to="/signin">Sign In</Link>
@@ -66,6 +61,22 @@ const Header = ({ loggedinUser }) => {
                         </nav>
                     }
                 </div>
+            </div>
+
+
+            <div className='bottom-links'>
+                <nav >
+                    <Link className="nav-link" to="/signin">
+                        <span>Home</span> <Icon className="search-icon" icon="ant-design:home-filled" />
+                    </Link>
+                    <Link className="nav-link" to="/signin">
+                        <span>Anime Shows</span> <Icon className="search-icon" icon="ic:round-watch-later" />
+                    </Link>
+                    <Link className="nav-link" to="/search">
+                        <span>Search</span> <Icon className="search-icon" icon="octicon:search-16" />
+                    </Link>
+                    <a className="nav-link" onClick={() => handleLogout()}>Logout</a>
+                </nav>
             </div>
         </div>
     )

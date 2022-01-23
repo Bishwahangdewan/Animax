@@ -1,0 +1,39 @@
+.header-container{
+
+    .bottom-links{
+        position:fixed;
+        bottom:0vh;
+        width:100%;
+        z-index: 1000000;
+        background-color: #111;
+
+        nav{
+            display: flex;
+            justify-content: space-between;
+
+            .nav-link{
+                display:inline-block;
+                padding:20px;
+                color:#fff;
+                text-decoration: none;
+                position: relative;
+
+                span{
+                    padding-right:5px;
+
+                    &:hover{
+                        color:yellow
+                    }
+                }
+
+                .search-icon{
+                    font-size: 25px;
+                    position: absolute;
+                    top:15px;
+                    
+                }
+            }
+        }
+        
+    }
+}

@@ -2,7 +2,7 @@
     height:100vh;
     width:100%;
     overflow: hidden;
-    
+
     
     .video-container{
         position:absolute;
@@ -28,6 +28,15 @@
        /*z-index does not work with static positioning only with absolute relative etc.*/
        z-index:1000;
 
+       .dashboard-title-image-container{
+            width:400px;
+
+            .dashboard-title-image{
+                width:100%;
+            }            
+
+       }
+
        h1{
            font-family:DM Serif display;
            font-size:60px;
@@ -51,4 +60,23 @@
        }
     }
    
+}
+
+
+@media(max-width:720px){
+    .display-container{
+        
+        .display-content{
+            padding-top:20vh;
+
+            .dashboard-title-image-container{
+                width:250px;
+            }
+
+            p{
+                width:80%;
+                font-size: 14px;
+            }
+        }
+    }
 }

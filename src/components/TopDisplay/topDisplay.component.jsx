@@ -10,10 +10,15 @@ import { AnimeData } from '../../pages/DashboardPage/animeData';
 //import components
 import CustomButton from '../custom-button/CustomButton.component';
 
+//import custom hook
+import useWindowWidth from '../../utils/custom-hooks/window-width';
+
 const TopDisplay = () => {
 
     const [toggleVideo, setToggleVideo] = useState(false);
     const [topDisplayData, setTopDisplayData] = useState({});
+
+    const [width, setWidth] = useWindowWidth()
 
     useEffect(() => {
         AnimeData.forEach(category => {
@@ -63,7 +68,6 @@ const TopDisplay = () => {
 
                     <div className="button-container">
                         <CustomButton>View Details</CustomButton>
-                        <CustomButton primary>Watch</CustomButton>
                     </div>
                 </div>
             </div>
@@ -72,22 +76,26 @@ const TopDisplay = () => {
 
     return (
         <div onMouseEnter={() => changeToVideo()} onMouseLeave={() => changeToImage()} className="display">
-            {toggleVideo ?
-
-                <div className="display-container">
-                    <video autoPlay loop id="myVideo" style={toggleVideo ? fullHeight : ''}>
-                        <source src={Video} type="video/mp4" />
-                    </video>
-
-                    <div className="video-container">
-                        {displayContent()}
-                    </div>
-                </div>
-
-                :
+            {width < 720 ?
                 <div className="display-container" style={backImg}>
                     {displayContent()}
                 </div>
+                :
+                toggleVideo ?
+                    <div className="display-container">
+                        <video autoPlay loop id="myVideo" style={toggleVideo ? fullHeight : ''}>
+                            <source src={Video} type="video/mp4" />
+                        </video>
+
+                        <div className="video-container">
+                            {displayContent()}
+                        </div>
+                    </div>
+
+                    :
+                    <div className="display-container" style={backImg}>
+                        {displayContent()}
+                    </div>
             }
         </div>
     )

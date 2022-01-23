@@ -54,3 +54,16 @@
     }
 
 }
+
+@media(max-width:720px){
+    .search-item-container{
+
+        .search-img-container{
+            width:650px;
+        }
+
+        .search-content-container{
+            width:100%;
+        }
+    }
+}

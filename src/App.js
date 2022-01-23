@@ -12,6 +12,7 @@ import Dashboard from './pages/DashboardPage/dashboard.pages';
 import AnimeDetails from './pages/animeDetails/AnimeDetailspages';
 import VideoPlayer from './components/VideoPlayer/VideoPlayer.component';
 import SearchPage from './pages/SearchPage/SearchPage.pages';
+import ResponsiveHeader from './components/ResponsiveHeader/ResponsiveHeader.component';
 
 //import Firebase Services
 import { auth, onAuthStateChanged } from './firebase/firebase';
@@ -23,6 +24,7 @@ class App extends React.Component {
 
     this.state = {
       uid: '',
+      width: window.innerWidth
     }
   }
 
@@ -45,10 +47,15 @@ class App extends React.Component {
     this.unsubscribeFromAuth()
   }
 
+  //responsive
+  componentDidUpdate() {
+    window.addEventListener('resize', () => this.setState({ width: window.innerWidth }))
+  }
+
   render() {
     return (
       <div className="App">
-        <Header loggedinUser={this.state.uid} />
+        {this.state.width < 720 ? <ResponsiveHeader loggedinUser={this.state.uid} /> : <Header loggedinUser={this.state.uid} />}
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/signin" element={this.state.uid ? <Navigate to="/dashboard" /> : <SignIn />} />
