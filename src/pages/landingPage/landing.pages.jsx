@@ -20,7 +20,7 @@ const LandingPage = () => (
                     <div className='showcase-content'>
                         <h1>Watch <span className="text-primary">ANIME</span> Anytime</h1>
                         <p>Watch your favourite Anime. You need to sign in in order to watch Anime. </p>
-                        <CustomButton primary>SIGN IN</CustomButton>
+                        <CustomButton link="signin" primary>SIGN IN</CustomButton>
                     </div>
                 </div>
             </div>
