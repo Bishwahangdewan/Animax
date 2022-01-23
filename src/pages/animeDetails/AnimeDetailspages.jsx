@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 //react-router-dom
 import { useParams } from 'react-router-dom';
@@ -8,7 +8,6 @@ import './anime-details.styles.scss';
 
 //import data
 import { AnimeData } from '../DashboardPage/animeData';
-import { useEffect } from 'react/cjs/react.development';
 
 //import components
 import DisplayGenre from '../../components/DisplayGenre/DisplayGenre.component';
