@@ -23,7 +23,7 @@ const TopDisplay = () => {
     useEffect(() => {
         AnimeData.forEach(category => {
             if (category.label === "Most Popular") {
-                let index = Math.floor(Math.random() * 10);
+                let index = Math.floor(Math.random() * 12);
                 setTopDisplayData(category.anime_list[index]);
             }
         })

@@ -57,11 +57,11 @@ class App extends React.Component {
       <div className="App">
         {this.state.width < 720 ? <ResponsiveHeader loggedinUser={this.state.uid} /> : <Header loggedinUser={this.state.uid} />}
         <Routes>
-          <Route path="/" element={this.state.uid ? <Dashboard /> : <LandingPage />} />
+          <Route path="/" element={this.state.uid ? <Navigate to="/dashboard" /> : <LandingPage />} />
           <Route path="/signin" element={this.state.uid ? <Navigate to="/dashboard" /> : <SignIn />} />
           <Route path="/signup" element={this.state.uid ? <Navigate to="/dashboard" /> : <SignUp />} />
           <Route path="/dashboard" element={this.state.uid ? <Dashboard /> : <Navigate to="/signin" />} />
-          <Route path="/animeDetails/:id" element={this.state.uid ? <AnimeDetails /> : <Navigate to="/signin" />} />
+          <Route path="/animeDetails/:id" element={<AnimeDetails />} />
           <Route path="/video/:anime_id/:video_id" element={this.state.uid ? <VideoPlayer /> : <Navigate to="/signin" />} />
           <Route path="/search" element={this.state.uid ? <SearchPage /> : <Navigate to="/signin" />} />
         </Routes>

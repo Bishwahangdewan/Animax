@@ -453,7 +453,111 @@ export const AnimeData = [
                 release_year: '2019',
                 no_of_seasons: '2',
                 img: 'one-punch-man.jpg',
-                titleImg: 'one-punch-man.png'
+                titleImg: 'one-punch-man.png',
+                episodes: [
+                    {
+                        season: "1",
+                        season_episodes: [
+                            {
+                                episode_id: "HdkcgPWOvU6qp5LOtIYaNg",
+                                episode_no: "1",
+                                episode_title: "Saikyô no otoko",
+                                episode_description: "One Punch Man is too strong and growing tired of his weak enemies. Will he ever be faced with a real challenge?",
+                                episode_thumbnail_url: "1.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "AZry-2iZSEW2rcv30Hgpvg",
+                                episode_no: "2",
+                                episode_title: "Kokô no saibôgu",
+                                episode_description: "Genos, a Cyborg who is seeking Justice fights with a Mosquito Monster along with Saitama.",
+                                episode_thumbnail_url: "2.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "Ank2Kswn-Um6FOpsUFQ28w",
+                                episode_no: "3",
+                                episode_title: "Shûnen no kagakusha",
+                                episode_description: "Saitama and Genos track down an evil scientist who wants to know the secret to Saitama's power.",
+                                episode_thumbnail_url: "3.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "gI9_b7EwjEymGjjGlXmeng",
+                                episode_no: "4",
+                                episode_title: "Imadoki no ninja",
+                                episode_description: "A group of Bald thugs use body armors to terrorize rich people. Sonic Speed, a hired ninja fights them. Unfortunately he meets with Saitama who is also a Bald.",
+                                episode_thumbnail_url: "4.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "GxjIvheej0OMMgOHVwUeoQ",
+                                episode_no: "5",
+                                episode_title: "Kyûkoku no shi",
+                                episode_description: "Determined to get a little recognition, Saitama decides to become a pro hero, but first, he must pass the Hero Association tests and become a full-fledged member.",
+                                episode_thumbnail_url: "5.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "_g4p6B2I7kKhEFt6qCc2CQ",
+                                episode_no: "6",
+                                episode_title: "Saikyô no toshi",
+                                episode_description: "To remain on the Hero list Saitama has to show some activity in every week. Currently the City Z is defined as the 'ghost town'. Heroes are gathered together to find out whats going on.",
+                                episode_thumbnail_url: "6.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "arBjvikPS0W0_aWthYTqhg",
+                                episode_no: "7",
+                                episode_title: "Shikô no deshi",
+                                episode_description: "A giant meteor threatens to destroy City Z. All S-Rank heroes are called to City Z to destroy the meteor before its collision.",
+                                episode_thumbnail_url: "7.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "lquv1cz9AU6tvxWu6vmoTw",
+                                episode_no: "8",
+                                episode_title: "Shinkai no Ô",
+                                episode_description: "Several Sea Folk appear and begin attacking citizens. They are easily defeated until The Deep Sea King appears and defeats many heroes including an S-Class.",
+                                episode_thumbnail_url: "8.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "L5Qq7liU_kGe7SZBKerWBw",
+                                episode_no: "9",
+                                episode_title: "Fukutsu no seigi",
+                                episode_description: "The fight with the Deep Sea King concludes and Saitama and Genos reflect on it as well as Saitama's promotion to B-Class.",
+                                episode_thumbnail_url: "9.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "CaOwKywCA0miwUctMVlxZQ",
+                                episode_no: "10",
+                                episode_title: "Katsute nai hodo no kiki",
+                                episode_description: "Saitama and all class S heroes are gathered together to be informed of an imminent extremely danger threat.",
+                                episode_thumbnail_url: "10.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "4B6zSveDk0ihbEFpG4SYzA",
+                                episode_no: "11",
+                                episode_title: "Zen ushû no hasha",
+                                episode_description: "An alien conqueror lands in a spaceship to conquer the Earth during the S class heroes meeting.",
+                                episode_thumbnail_url: "11.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "EZ6ZWohGKk68Z2bvKlPXuQ",
+                                episode_no: "12",
+                                episode_title: "Saikyô no hîrô",
+                                episode_description: "Saitama takes on the alien leader in epic battle as the S class heroes fight the alien warriors and destroy the spaceship.",
+                                episode_thumbnail_url: "12.jpg",
+                                episode_video_url: ""
+                            }
+
+                        ]
+                    }
+                ]
             },
             {
                 id: "mmlGEo7bLEuUbzLZpTL5fg",
@@ -463,7 +567,118 @@ export const AnimeData = [
                 release_year: '2016',
                 no_of_seasons: '5',
                 img: 'my-hero-academia.jpg',
-                titleImg: 'my-hero-academia.png'
+                titleImg: 'my-hero-academia.png',
+                episodes: [
+                    {
+                        season: "1",
+                        season_episodes: [
+                            {
+                                episode_id: "2M3TROamz02Vz0FIvhE0GQ",
+                                episode_no: "1",
+                                episode_title: "Izuku Midoriya: Origin",
+                                episode_description: "Izuku Midoriya desperately wants to be a hero, but he is one of the few in his generation born without a Quirk. Will meeting the number one hero, All Might, change his fate?",
+                                episode_thumbnail_url: "1.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "5J-mTn8LGEqp-D_Xl9JZiA",
+                                episode_no: "2",
+                                episode_title: "What It Takes to Be a Hero",
+                                episode_description: "Izuku accidentally learns of All Might's secret, but there's trouble in town again before Izuku has time to process it. Will All Might be able to save the day again?",
+                                episode_thumbnail_url: "2.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "L6y3LS4_PUmz6xjJ6cBnUw",
+                                episode_no: "3",
+                                episode_title: "Roaring Muscles",
+                                episode_description: "All Might tells Izuku that he can become a hero, but does he really have what it takes to become one?",
+                                episode_thumbnail_url: "3.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "96D50-B-9Ei6ax6hre5nCQ",
+                                episode_no: "4",
+                                episode_title: "Start Line",
+                                episode_description: "At the entrance exam, Izuku falls behind as the other students defeat faux villains left and right. Will he be able to get enough points to pass?",
+                                episode_thumbnail_url: "3.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "BdO1hJoKZUe6X9RJbNPYig",
+                                episode_no: "5",
+                                episode_title: "What I Can Do For Now",
+                                episode_description: "It's Izuku's first day of high school, and he still can't control his new Quirk. Will he make it to the second day of school with his eccentric new teacher?",
+                                episode_thumbnail_url: "5.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "JXysRv30e0i9g7aQEkX0Ng",
+                                episode_no: "6",
+                                episode_title: "Rage, You Damn Nerd",
+                                episode_description: "Izuku somehow gets through his first day of school and falls into a regular schedule of classes and training at U.A",
+                                episode_thumbnail_url: "6.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "2IJ4Ray6f0-8Se9KvY-vaA",
+                                episode_no: "7",
+                                episode_title: "Deku vs. Kacchan",
+                                episode_description: "Izuku is up against Katsuki in their first class with All Might! Can he and Uraraka beat the villain team of Katsuki and Tenya before time runs out?",
+                                episode_thumbnail_url: "7.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "SMDuSUQi9UabOcUBN30r8Q",
+                                episode_no: "8",
+                                episode_title: "Bakugo's Start Line",
+                                episode_description: "After the combat training lesson, the students and All Might reflect on their matches as they think about their next steps.",
+                                episode_thumbnail_url: "8.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "3MF5QBgO20m0lebLCBlLEg",
+                                episode_no: "9",
+                                episode_title: "Yeah, Just Do Your Best, Iida!",
+                                episode_description: "Class 1-A has to elect a class representative, and everyone wants the job! How will they choose? And what lies in wait for them at the next class?",
+                                episode_thumbnail_url: "9.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "jUyG0-UU-UChMTdJFLABbg",
+                                episode_no: "10",
+                                episode_title: "Encounter with the Unknown",
+                                episode_description: "Villains have attacked USJ, and it's up to Class 1-A to stop them. What are the villains after? Will All Might be able to save the day again?",
+                                episode_thumbnail_url: "10.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "lHB80CUQCEqAEJRd8uWZDQ",
+                                episode_no: "11",
+                                episode_title: "Game Over",
+                                episode_description: "The students of Class 1-A are up against the League of Villains. Will they survive long enough for help to arrive?",
+                                episode_thumbnail_url: "11.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "ST9-PZIQE06kQkdydW-19A",
+                                episode_no: "12",
+                                episode_title: "All Might",
+                                episode_description: "All Might has finally shown up, but will he be able to defeat Nomu and save the day?!",
+                                episode_thumbnail_url: "12.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "10YjvL6XdU2r_ou5BxKnog",
+                                episode_no: "13",
+                                episode_title: "Upon Each of Their Hearts",
+                                episode_description: "As the battle at USJ winds down, Izuku and All Might think about its repercussions. Meanwhile, the villains slink home to plan their next move.",
+                                episode_thumbnail_url: "13.jpg",
+                                episode_video_url: ""
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 id: "laf5pDsIIUy3eyksAsW5Ew",
@@ -551,7 +766,94 @@ export const AnimeData = [
                 release_year: '2015',
                 no_of_seasons: '4',
                 img: 'food-wars.jpg',
-                titleImg: 'food-wars.png'
+                titleImg: 'food-wars.png',
+                episodes: [
+                    {
+                        season: "1",
+                        season_episodes: [
+                            {
+                                episode_id: "aXCKyBNnS0eYWdBrEC1PFA",
+                                episode_no: "1",
+                                episode_title: "An Endless Wasteland",
+                                episode_description: "Yukihira is a popular neighborhood restaurant where Yukihira Soma helps out in the hopes of surpassing his father as a chef one day. But land sharks are after their restaurant, and one day Soma tells them that the restaurant will close if they couldn't serve satisfactory food to their customers.",
+                                episode_thumbnail_url: "1.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "9wnbosI4pkqjw7iV0m_TjA",
+                                episode_no: "2",
+                                episode_title: "God Tongue",
+                                episode_description: "Under his father's orders, Soma attempts to transfer into Togetdu Tea House Cullinery Academy. There he meets a student, Nakiri Erina possess the best palate: the God Tongue.",
+                                episode_thumbnail_url: "2.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "5CyDj4PSu06_htwkUBWNIQ",
+                                episode_no: "3",
+                                episode_title: "The Chef That Doesn't Smile",
+                                episode_description: "After barely passing the entrance exam, Soma inadvertently alienates his new classmates with a thoughtless announcement. Later, he's matched up with an at-risk student desperate to stay in school.",
+                                episode_thumbnail_url: "3.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "lGYGavV5e0yHGVDTi8bSgw",
+                                episode_no: "4",
+                                episode_title: "Maria of the Polar Star",
+                                episode_description: "After his classes, Yukihira has to take a test to get into his dorm. There he meets his dorm mates, and is tested upon by one.",
+                                episode_thumbnail_url: "4.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "BuFNqIJvvk-wNzojwfvD_Q",
+                                episode_no: "5",
+                                episode_title: "The Ice Queen and the Spring Storm",
+                                episode_description: "Eager to join the Elite Ten, Soma challenges Isshiki Satoshi-the only other second-year student from the high school division-to a cook-off. But Soma quickly discovers there is more to the challenge than he anticipated.",
+                                episode_thumbnail_url: "5.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "sOoOAEY7gEKEP8O0C-JVLw",
+                                episode_no: "6",
+                                episode_title: "The Meat Aggressor",
+                                episode_description: "Soma while looking at food clubs is drawn to the Donmono Research Society. He and Megumi decide to check it out, but find the club leader, Konishi losing over is failing club.",
+                                episode_thumbnail_url: "6.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "B77dS_OtlEqmAsR9N9yVaA",
+                                episode_no: "7",
+                                episode_title: "A Quite Don, an Eloquent Don",
+                                episode_description: "SMito Ikumi and Yukihira Soma go head to head at the Shokugeki! Ikumi, known as the Meat Master, seems to have the whole crowd on his side.",
+                                episode_thumbnail_url: "7.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "J4tTsU9QsEaCohhNwrbHLg",
+                                episode_no: "8",
+                                episode_title: "Concerto of Ideas and Creations",
+                                episode_description: "A brutal training camp is underway to whittle down new students, but those in Polar Star Dorm are determined to survive. Trying to survive Soma may have met his match.",
+                                episode_thumbnail_url: "8.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "7oDhWHUM2kKa2eIESHM9HQ",
+                                episode_no: "9",
+                                episode_title: "The Coating That Colors the Mountain",
+                                episode_description: "Soma and his teammates are challenged with making a Japanese dish using only locally available ingredients. Inspired by the challenge, Soma grabs Megumi and heads off to go shopping",
+                                episode_thumbnail_url: "9.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "tJOrIENvK0SyFXT8xj8ttg",
+                                episode_no: "10",
+                                episode_title: "The Supreme Recette",
+                                episode_description: "The Polar Star Members have survived the first day of camp. Megumi finds her confidence by successfully supporting Soma.",
+                                episode_thumbnail_url: "10.jpg",
+                                episode_video_url: ""
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 id: "JERP8IdMCkKyzu4ym2d35w",
@@ -561,7 +863,102 @@ export const AnimeData = [
                 release_year: '2009',
                 no_of_seasons: 'NA',
                 img: 'fullmetal-alchemist.jpg',
-                titleImg: 'fullmetal-alchemist.png'
+                titleImg: 'fullmetal-alchemist.png',
+                episodes: [
+                    {
+                        season: "1",
+                        season_episodes: [
+                            {
+                                episode_id: "Uu5dAKleQkSKcwkSDBzXFA",
+                                episode_no: "1",
+                                episode_title: "Hagane no renkinjutsushi",
+                                episode_description: "The Elric brothers adjust to military life and take part in a manhunt for Isaac the Freezer, a former State Alchemist bent on ending the reign of Fuhrer Bradley.",
+                                episode_thumbnail_url: "1.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "jE6FsZ1hEkmzoO7hb4lZcA",
+                                episode_no: "2",
+                                episode_title: "Hajimari no hi",
+                                episode_description: "A glimpse into the past reveals the pain and desperation that drove the Elric boys to break alchemy's greatest taboo - human transmutation - and their reasons for becoming dogs of the military.",
+                                episode_thumbnail_url: "2.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "He6lZmXs6UWaZ3KhMmonbA",
+                                episode_no: "3",
+                                episode_title: "Jakyô no machi",
+                                episode_description: "Science and faith collide when the Elrics confront Father Cornello. He claims to work miracles, but the brothers suspect him of abusing a Philosopher's Stone to manipulate his flock.",
+                                episode_thumbnail_url: "3.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "L_SARFWmSU6LwUwBdmtV8g",
+                                episode_no: "4",
+                                episode_title: "An Alchemist's Distress",
+                                episode_description: "The Elrics meet Shou Tucker, a leading researcher in the field of chimeras. He has much to teach Ed and Al about alchemy - and the horrible cruelty that sometimes accompanies it.",
+                                episode_thumbnail_url: "4.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "RJoaYYbOXk6Iw0MdwcNAEg",
+                                episode_no: "5",
+                                episode_title: "Rain of Sorrow",
+                                episode_description: "Edward and Alphonse are attacked by Scar, a mysterious killer wanted for a string of gruesome murders. His powers are incredible - and his obsession with slaying State Alchemists might be justified.",
+                                episode_thumbnail_url: "5.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "t_cqKtrvLUeAx9rpOUJcKQ",
+                                episode_no: "6",
+                                episode_title: "Kibou no michi",
+                                episode_description: "Before arriving at the Rockbell home for repairs, the Elrics meet Dr. Marcoh, a State Alchemist running from past sins. The information he gives Ed and Al could put the Philosopher's Stone within reach.",
+                                episode_thumbnail_url: "6.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "wXDkCclptkGRbK0nawA2zg",
+                                episode_no: "7",
+                                episode_title: "Kakusareta shinjitsu",
+                                episode_description: "The Elrics discover the horrific ingredient needed to create a Philosopher's Stone.",
+                                episode_thumbnail_url: "7.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "jBasl4vAt0mQCyiebJFCvw",
+                                episode_no: "8",
+                                episode_title: "Daigo kenkyuujo",
+                                episode_description: "Ed and Al furiously battle the Fifth Laboratory's psychotic guards. In the chaos, the truth behind the Philosopher's Stone is buried beneath rubble - and disturbing new questions are unearthed.",
+                                episode_thumbnail_url: "8.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "1YB4OeLTrkezlQn1AQV4Hw",
+                                episode_no: "9",
+                                episode_title: "Tsukurareta omoi",
+                                episode_description: "Al is haunted by the notion his entire existence was simply created by his brother. When the youngest Elric angrily reveals these suspicions, only Winry can convince him just how wrong he is about Ed.",
+                                episode_thumbnail_url: "9.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "gp4WVP6Qp0et7tq7lFL8Ag",
+                                episode_no: "10",
+                                episode_title: "Rasshubarê no kiseki",
+                                episode_description: "The Elrics, realizing alchemy has yet to unlock the mysteries of creating life, feel powerless when a new friend goes into labor. Winry, however, jumps into action with a young thief named Paninya.",
+                                episode_thumbnail_url: "10.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "SWup-Ke2tkS9phkiC-5sDg",
+                                episode_no: "11",
+                                episode_title: "Ichi wa zen, Zen wa ichi",
+                                episode_description: "While visiting Izumi, their childhood teacher, the Elrics recall the early difficulties of grasping equivalent exchange. They also discover she shares their intimate knowledge of alchemy's greatest taboo.",
+                                episode_thumbnail_url: "11.jpg",
+                                episode_video_url: ""
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 id: "PR3fbLJpw0mWYSNPT31YHg",
@@ -571,7 +968,94 @@ export const AnimeData = [
                 release_year: '2014',
                 no_of_seasons: '4',
                 img: 'haikyuu.jpg',
-                titleImg: 'haikyuu.png'
+                titleImg: 'haikyuu.png',
+                episodes: [
+                    {
+                        season: "1",
+                        season_episodes: [
+                            {
+                                episode_id: "tXkra3fZ2k-bOK-_qncAnA",
+                                episode_no: "1",
+                                episode_title: "Self-Introduction",
+                                episode_description: "Hinata begins to feel left behind as Kageyama and Tsukishima are each invited to training camps and he isn't.",
+                                episode_thumbnail_url: "1.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "zAERigO3fku5hQf0YmCzLA",
+                                episode_no: "2",
+                                episode_title: "Lost",
+                                episode_description: "Hinata must deal with the aftermath of his desperate ploy to join a training camp.",
+                                episode_thumbnail_url: "2.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "-s8_MURwpUKdgT9xEVI9Og",
+                                episode_no: "3",
+                                episode_title: "Perspective",
+                                episode_description: "Hinata gains a new perspective on volleyball and tries to make the best of his new position.",
+                                episode_thumbnail_url: "3.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "WoeAfL2Kmke0i7wGMSgaSw",
+                                episode_no: "4",
+                                episode_title: "Take It Easy",
+                                episode_description: "With the help of Tsukishima, Hinata manages to join in on the free practice, and impress the others with his abilities. He later on notices and assists a seemingly struggling player.",
+                                episode_thumbnail_url: "4.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "SGseKIG7ZEuEIomJ3179lQ",
+                                episode_no: "5",
+                                episode_title: "Hunger",
+                                episode_description: "The last day of training camp has come. Hinata is determined to finish strong with a higher skill level and as many newly acquired techniques as possible.",
+                                episode_thumbnail_url: "5.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "kPeGmAyeCE6-UOANGtb6HQ",
+                                episode_no: "6",
+                                episode_title: "Enhancements",
+                                episode_description: "Now reunited, the Karasuno players begin working on strengthening themselves and their skills in preparation for Nationals and Kageyama begins assisting Hinata in trying to improve his jump.",
+                                episode_thumbnail_url: "6.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "AiCLTV_NWkiYCMBqJ2BIyQ",
+                                episode_no: "7",
+                                episode_title: "Return",
+                                episode_description: "As they continue to play against Date Tech, the Karasuno team struggles with trying new methods, facing Date Tech's improved blocking and Kageyama's change in behavior.",
+                                episode_thumbnail_url: "7.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "c8rH2gGwjUaaDjbKc0XuVw",
+                                episode_no: "8",
+                                episode_title: "Challenger",
+                                episode_description: "The match between Karasuno and Date Tech stretches into an eighth set. With their time limited, Karasuno begins having Hinata blend into attacks in the attempt to overcome Date Tech.",
+                                episode_thumbnail_url: "8.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "ct8sBWSj40-qTo4SaqL7Lg",
+                                episode_no: "9",
+                                episode_title: "Everyone's Night",
+                                episode_description: "On the first day of the New Year, Daichi is disturbed by a foreboding dream that burdens him as the time to head to the Spring Tournament draws near.",
+                                episode_thumbnail_url: "9.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "1MiIcYjKZ0CVHSgc0fnkmQ",
+                                episode_no: "10",
+                                episode_title: "Battle Lines",
+                                episode_description: "Hinata's shoes suddenly go missing before the team's first game. Kiyoko embarks on the task of retrieving the shoes as she remembers how she first became the manager of the team",
+                                episode_thumbnail_url: "10.jpg",
+                                episode_video_url: ""
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 id: "aZ5wFE5SkkC0NPnJatYKow",
@@ -581,7 +1065,102 @@ export const AnimeData = [
                 release_year: '2011',
                 no_of_seasons: '1',
                 img: 'steins-gate.jpg',
-                titleImg: 'steins-gate.png'
+                titleImg: 'steins-gate.png',
+                episodes: [
+                    {
+                        season: "1",
+                        season_episodes: [
+                            {
+                                episode_id: "jH5ZQqFGPE6Q-F5L-DK9ig",
+                                episode_no: "1",
+                                episode_title: "Prologue to the Beginning and End",
+                                episode_description: "A scientist can't recall events that others claim he experienced.",
+                                episode_thumbnail_url: "1.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "RBRotovDk06R5oKsj6ZRKw",
+                                episode_no: "2",
+                                episode_title: "Time Travel Paranoia",
+                                episode_description: "Okabe is surprised to see Makise up and about after she was killed.",
+                                episode_thumbnail_url: "2.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "3UHA_HajDEWDBiCjaNj0UQ",
+                                episode_no: "3",
+                                episode_title: "Parallel Process Paranoia",
+                                episode_description: "Okabe suspects his microwave oven is behind the recent unusual events.",
+                                episode_thumbnail_url: "3.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "3zmuGPs9BkS48RsSuMWusg",
+                                episode_no: "4",
+                                episode_title: "Interpreter Rendezvous...",
+                                episode_description: "Okabe needs to find a very old computer to hack a very new tech.",
+                                episode_thumbnail_url: "4.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "ZE3AoMPqOEWKZV3nV9piRg",
+                                episode_no: "5",
+                                episode_title: "Starmine Rendezvous",
+                                episode_description: "A successful hack reveals SERN's big secret.",
+                                episode_thumbnail_url: "5.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "JAKvs36qHECdLUmXtm3qag",
+                                episode_no: "6",
+                                episode_title: "Butterfly Effect's Divergence",
+                                episode_description: "Okabe's small scale experiment is partially successful.",
+                                episode_thumbnail_url: "6.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "HGPnf5yOIkmrTdTKIkcEpQ",
+                                episode_no: "7",
+                                episode_title: "Divergence Singularity",
+                                episode_description: "Okabe takes his experimentation to the next level by texting the winning lotto numbers back in time, but he fails to consider how his actions might alter the present - or the future.",
+                                episode_thumbnail_url: "7.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "OC9pij1rsEyMstyhofNcLg",
+                                episode_no: "8",
+                                episode_title: "Chaos Theory Homeostasis I",
+                                episode_description: "The latest experiment for Okabe and his lab mates leads to the disappearance of one of their own. Next, they'll attempt to use their time travel technology to make a young boy's dream a reality.",
+                                episode_thumbnail_url: "8.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "UTOr1xiZiE20y8GsfHEmwA",
+                                episode_no: "9",
+                                episode_title: "Chaos Theory Homeostasis II",
+                                episode_description: "Okabe grows concerned over the drastic changes his experimentation is causing, and the IBN-5100 disappears from the lab.",
+                                episode_thumbnail_url: "9.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "-7YjKiUBAkGFmMPNXx0QKg",
+                                episode_no: "10",
+                                episode_title: "Chaos Theory Homeostasis III",
+                                episode_description: "The part-time warrior from downstairs tells Okabe about the search for her missing father. Meanwhile, the aspiring mad scientist is troubled by a mysterious text message.",
+                                episode_thumbnail_url: "10.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "jmPs0je_fkKXds1QrWb8bg",
+                                episode_no: "11",
+                                episode_title: "Dogma in Event Horizon",
+                                episode_description: "As the lab members prepare to transport human memories by way of a Time Leap, Okabe receives some highly disturbing news: Makise may be a SERN spy!",
+                                episode_thumbnail_url: "11.jpg",
+                                episode_video_url: ""
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 id: "l_I0w_zvGECTRYnN3t4Ajg",
@@ -591,7 +1170,134 @@ export const AnimeData = [
                 release_year: '2017',
                 no_of_seasons: 'NA',
                 img: 'boruto.jpg',
-                titleImg: 'boruto.png'
+                titleImg: 'boruto.png',
+                episodes: [
+                    {
+                        season: "1",
+                        season_episodes: [
+                            {
+                                episode_id: "9cfz3zBqeEyEe3vhhV5IYA",
+                                episode_no: "1",
+                                episode_title: "Uzumaki Boruto!!",
+                                episode_description: "Prior to entering the Ninja Academy, Boruto Uzumaki, the son of Naruto Uzumaki, meets a bullied boy named Denki Kaminarimon, who is being forced to join the academy for the sake of his father's company.",
+                                episode_thumbnail_url: "1.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "ifDmuUVD00K5H8OP7q-KFQ",
+                                episode_no: "2",
+                                episode_title: "Hokage no musuko...!!",
+                                episode_description: "After having been suspended for two weeks for the trouble he caused at the entrance ceremony, Boruto finally begins his days attending the academy.",
+                                episode_thumbnail_url: "2.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "TPPhTt1qWkqcE73aShZYEg",
+                                episode_no: "3",
+                                episode_title: "Bôsô, Metaru Rî!!",
+                                episode_description: "Metal Lee is a hard working boy who is talented at taijutsu, but he easily comes under pressure and gets very nervous when others are watching him, which cause him to make mistakes.",
+                                episode_thumbnail_url: "3.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "09duBIhAykWrJ0LYXs1yNA",
+                                episode_no: "4",
+                                episode_title: "Danjo taikô ninjutsu kassen!!",
+                                episode_description: "Tensions begin to rise between the boys and girls in class. During a lunch break, when Boruto and Sarada start antagonizing one another, Shino intervenes and suggests that things be settled with a capture the flag mission.",
+                                episode_thumbnail_url: "4.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "oGH0Tc3-nkGedFLDOrrTdg",
+                                episode_no: "5",
+                                episode_title: "Nazo no tenkôsei...!!",
+                                episode_description: "Boruto and his classmates welcome a new student Mitsuki from the hidden sound village.",
+                                episode_thumbnail_url: "5.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "0p1j-f3YbkqUSCuyrIdjGg",
+                                episode_no: "6",
+                                episode_title: "Saigo no jugyô...!!",
+                                episode_description: "The battle between Shino sensei and the trio.",
+                                episode_thumbnail_url: "6.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "9pyNmW7ygUGe92CpxqwvWg",
+                                episode_no: "7",
+                                episode_title: "Koi to potechi...!!",
+                                episode_description: "Chocho believes that she has a stalker following her. When the culprit is revealed, it turns out to be to be a schoolmate who actually has his eyes set on somebody else.",
+                                episode_thumbnail_url: "7.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "zJ1w52pkZk2Ve0Z1Cflycw",
+                                episode_no: "8",
+                                episode_title: "Yume no otsuge",
+                                episode_description: "Boruto has a dream one night of a mysterious man telling him that his special eye power will be the key to fending off great destruction.",
+                                episode_thumbnail_url: "8.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "zFm3EwBsb0yUZDl3aQCnCg",
+                                episode_no: "9",
+                                episode_title: "Jibun no shômei",
+                                episode_description: "Boruto takes on his aunt Hanabi in a fighting match to prove he has awakened the Byakugan.",
+                                episode_thumbnail_url: "9.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "r5E_BXeKtk-z2MflfYpyKA",
+                                episode_no: "10",
+                                episode_title: "Gôsuto jiken, sôsa kaishi!!",
+                                episode_description: "Boruto's class is having a lesson about workplace experience and are able to learn about any job in the village.",
+                                episode_thumbnail_url: "10.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "-b8CHEYOu02fIshXTB_xxw",
+                                episode_no: "11",
+                                episode_title: "Kuromaku no kage",
+                                episode_description: "Naruto warns Boruto to stop investigating the dilemma involving the ghost as the situation is starting to grow more dangerous.",
+                                episode_thumbnail_url: "11.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "t7W2lNBofUuasfBvdsfhtw",
+                                episode_no: "12",
+                                episode_title: "Boruto to Mitsuki",
+                                episode_description: "A glimpse of Mitsuki past is shown. The Academy students take a training course with a three-man team.",
+                                episode_thumbnail_url: "12.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "INRooru4aUKrgI9ynP32TQ",
+                                episode_no: "13",
+                                episode_title: "Majû, genru...!!",
+                                episode_description: "Mitsuki reveals to Boruto the culprit behind the ghost attacks.",
+                                episode_thumbnail_url: "13.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "Fx_qRJWJGEeM-qz8MJ-Fig",
+                                episode_no: "14",
+                                episode_title: "Boruto ni mieru michi",
+                                episode_description: "After being sucked into Nue's dimension, Boruto and Mitsuki fight off the monster and try to stop Sumire.",
+                                episode_thumbnail_url: "14.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "MLiTydLDl0-YE1Sr4WBIsQ",
+                                episode_no: "15",
+                                episode_title: "Atarashî michi",
+                                episode_description: "With the ghost dilemma resolved, everything in the village seems to go back to normal. But Boruto and his class wonder what has become of Sumire since she has yet to return to the academy.",
+                                episode_thumbnail_url: "15.jpg",
+                                episode_video_url: ""
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 id: "ssdEvBm2gEKCTH4ap33-gA",
@@ -601,7 +1307,102 @@ export const AnimeData = [
                 release_year: '2016',
                 no_of_seasons: '5',
                 img: '7-deadly-sins.jpg',
-                titleImg: '7-deadly-sins.png'
+                titleImg: '7-deadly-sins.png',
+                episodes: [
+                    {
+                        season: "1",
+                        season_episodes: [
+                            {
+                                episode_id: "lKu9d0zTJ0ORnodlR2Gwig",
+                                episode_no: "1",
+                                episode_title: "Nanatsu no Taizai",
+                                episode_description: "A princess embarks on an adventure to gather a group of gentlemen who can take the despots of power and regain the freedom of the kingdom.",
+                                episode_thumbnail_url: "1.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "y3CWJ1vFhEuA3JrCDNk-qg",
+                                episode_no: "2",
+                                episode_title: "Seikishi no Ken",
+                                episode_description: "When Gilthunder spiking his sword in the center of town and stops brewing, Meliodas is the one who can remove it and turns on the local hero.",
+                                episode_thumbnail_url: "2.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "qY7nD9ZyBEGfpYoOE2RT7A",
+                                episode_no: "3",
+                                episode_title: "Nemureru Morino Tsumi",
+                                episode_description: "Meliodas, Hawk and Elizabeth go to a haunted forest where Meliodas faces great dangers in search of information.",
+                                episode_thumbnail_url: "3.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "6skCE5vLMk-AG1NVXdIqnA",
+                                episode_no: "4",
+                                episode_title: "Shojo no Yume",
+                                episode_description: "Diane decides to join the mission to free Ben, but the group is attacked by an enemy you want to devastate the entire city.",
+                                episode_thumbnail_url: "4.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "IBght8E2NkmiXKAJpllrMg",
+                                episode_no: "5",
+                                episode_title: "Tatoe Anata ga Shindemo",
+                                episode_description: "Golgius tries to recover the sword of Elizabeth and Meliodas. The sound of a mysterious bell causes infighting in the group.",
+                                episode_thumbnail_url: "5.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "hS36gHiLFUaBOM5tZ0CszA",
+                                episode_no: "6",
+                                episode_title: "Hajimari no Uta",
+                                episode_description: "Elizabeth and Meliodas need the holy knights Friesia and Ruin sorted to get the dungeon. A harbinger indicates that a disaster on its way.",
+                                episode_thumbnail_url: "6.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "XVixs5hU1UWn3PR5U4Ngnw",
+                                episode_no: "7",
+                                episode_title: "Kando no Saikai",
+                                episode_description: "Ban, Meliodas and the others finally meet. In search of a clue to locate the Sin of Sloth, the group goes to the capital of the dead.",
+                                episode_thumbnail_url: "7.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "l6HAGLtYb0Si_d6922USrg",
+                                episode_no: "8",
+                                episode_title: "Osorubeki Tsuisekisha",
+                                episode_description: "King and Ban has a decisive confrontation. Guila faces Meliodas, Diane and Elizabeth. Ban remembers Eliane and the fountain of youth.",
+                                episode_thumbnail_url: "8.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "pZc55Bl980edFvKWVdUrSgg",
+                                episode_no: "9",
+                                episode_title: "Ankoku no Myakudo",
+                                episode_description: "Eliane finally convinced King to rescue Meliodas and others. Back in the capital, Dissatisfaction causes dissension among some sacred gentlemen.",
+                                episode_thumbnail_url: "9.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "_h_gwCgvV0qjEdknIkLltA",
+                                episode_no: "10",
+                                episode_title: "Ankoku no Myakudo",
+                                episode_description: "Eliane finally convinced King to rescue Meliodas and others. Back in the capital, Dissatisfaction causes dissension among some sacred gentlemen.",
+                                episode_thumbnail_url: "10.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "XxmSyKdjqEqDqKFnDuNjQw",
+                                episode_no: "11",
+                                episode_title: "Baizeru Kenka Matsuri",
+                                episode_description: "After find out what will be the grand prize of the festival, Gildeon, Meliodas Ban and King decide to participate, as well as the Knights Sacred Howzer and Griamore.",
+                                episode_thumbnail_url: "11.jpg",
+                                episode_video_url: ""
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 id: "M9kx6HjTQEC9fdBmNouPcg",
@@ -611,7 +1412,110 @@ export const AnimeData = [
                 release_year: '2019',
                 no_of_seasons: '1',
                 img: 'jujutsu-kaisen.jpg',
-                titleImg: 'jujutsu-kaisen.png'
+                titleImg: 'jujutsu-kaisen.png',
+                episodes: [
+                    {
+                        season: "1",
+                        season_episodes: [
+                            {
+                                episode_id: "w6J__GiK1kOjFBYTSLxKHw",
+                                episode_no: "1",
+                                episode_title: "Ryômen Sukuna",
+                                episode_description: "As Itadori cares for his grandpa, Fushiguro worries that he's carrying a cursed object of rare power. The Occult club messes with something far beyond their understanding",
+                                episode_thumbnail_url: "1.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "qSPKdYnXmkqWJlt6Yrtskw",
+                                episode_no: "2",
+                                episode_title: "For Myself",
+                                episode_description: "When Itadori wakes up in an unfamiliar room where walls have seals on them, he sees Gojou Satoru, a teacher at Jujutsu Tech resting in front of him. Who informs Itadori about the secret decision to execute him and also his two options.",
+                                episode_thumbnail_url: "2.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "z5XVhCFHc06mWwZ0OdLP4A",
+                                episode_no: "3",
+                                episode_title: "Girl of Steel",
+                                episode_description: "A new freshman arrives to join the Itadori and Fushiguro group. She barely arrives in Tokyo, and is already put to the test on her first exorcism mission.",
+                                episode_thumbnail_url: "3.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "c-QpVJtDzUmd59JxNJT1ww",
+                                episode_no: "4",
+                                episode_title: "Curse Womb Must Die",
+                                episode_description: "The three Jujutsu first years are sent to rescue inmates of a detention center haunted by a Cursed Womb. With the potential to spawn a Special Grade Cursed Spirit, the young Sorcerers are faced with the choice to run or die.",
+                                episode_thumbnail_url: "4.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "pV-N_NqDTEmnX1RfN_qwpA",
+                                episode_no: "5",
+                                episode_title: "Curse Womb Must Die -II-",
+                                episode_description: "Yuuji fails to regain control of his own body, forcing Fushiguro to take drastic measures. Meanwhile, the school's veterans finally introduce themselves.",
+                                episode_thumbnail_url: "5.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "QOz9INqoxkqf5oWV7BDGNg",
+                                episode_no: "6",
+                                episode_title: "After Rain",
+                                episode_description: "Yuuji and Sukuna have a conversation outside the material plane, while Gojou expresses his desire to bring about a revolution in the Jujutsu world - through education.",
+                                episode_thumbnail_url: "6.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "7OuF8fEdLUeAnS8Ni8bwVQ",
+                                episode_no: "7",
+                                episode_title: "After Rain",
+                                episode_description: "Jougo, a very powerful curse, attacks Gojou on the way to his meeting - and the teacher takes the opportunity to give a special class to Yuuji.",
+                                episode_thumbnail_url: "7.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "77SeRwWlu0Wim_mEAvZU2w",
+                                episode_no: "8",
+                                episode_title: "Boredom",
+                                episode_description: "Kugisaki and Fushiguro continue to prepare for the Exchange Event, but some visitors from Kyoto decide to jump the gun and test their colleagues in the capital.",
+                                episode_thumbnail_url: "8.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "8hNmV9Fn-0qSQuP8Dhrucg",
+                                episode_no: "9",
+                                episode_title: "Small Fry and Reverse Retribution",
+                                episode_description: "Junpei is a fragile boy, who suffers at school, and who is about to find refuge in the world of curses. Meanwhile, Yuuji investigates murders alongside a new partner: Nanami.",
+                                episode_thumbnail_url: "9.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "hyOuqTVQs0q9WBL-2PJaCA",
+                                episode_no: "10",
+                                episode_title: "Narrow-minded",
+                                episode_description: "Kento's fight with the curse that is manipulating Junpei goes into overtime. Itadori makes contact with Junpei.",
+                                episode_thumbnail_url: "10.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "MdjgTELiBUmmjudqla6ZYg",
+                                episode_no: "11",
+                                episode_title: "To You, Someday",
+                                episode_description: "Itadori arrives, he discovers that Junpei has unleashed so much pain.",
+                                episode_thumbnail_url: "11.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "IX2oM59n2kmoT7db4Wwbdg",
+                                episode_no: "12",
+                                episode_title: "Tomorrow",
+                                episode_description: "Yuji and Kento continue their battle against Mahito, who develops his powers in unexpected ways.",
+                                episode_thumbnail_url: "12.jpg",
+                                episode_video_url: ""
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
@@ -625,7 +1529,103 @@ export const AnimeData = [
                 genre: ['animation', 'action', 'drama'],
                 release_year: '2021',
                 no_of_seasons: '2',
-                img: '86.jpg'
+                img: '86.jpg',
+                titleImg: '86.png',
+                episodes: [
+                    {
+                        season: "1",
+                        season_episodes: [
+                            {
+                                episode_id: "1azZmslCIEGs8yTyeTLbKw",
+                                episode_no: "1",
+                                episode_title: "Undertaker",
+                                episode_description: "Stellar Year 2148, Major Vladilena is forced to take the lead of District 86. Rumors say that whoever was it's Head, they ended up resigning or committing suicide.",
+                                episode_thumbnail_url: "1.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "-gl1LnC5-ECwLGHhz5DsCQ",
+                                episode_no: "2",
+                                episode_title: "Spearhead",
+                                episode_description: "As Lena lives a life of safety and comfort inside the walls of her city, the 86 fight a terrible battle against an unstoppable and inhuman enemy.",
+                                episode_thumbnail_url: "2.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "z2bPjGneSEOHYyX9RWraIQ",
+                                episode_no: "3",
+                                episode_title: "I Don't Want to Die",
+                                episode_description: "Lena finds herself growing closer to the Spearhead squadron, or so she thinks. However a deadly battle drastically changes her perspective.",
+                                episode_thumbnail_url: "3.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "DgkJsoflqEiggXetLobUbA",
+                                episode_no: "4",
+                                episode_title: "Real Name",
+                                episode_description: "After a brutal death, Lena comes to terms with her real status as an Alba, and what it means to force another to fight for your sake.",
+                                episode_thumbnail_url: "4.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "q6NNDmE1_UKXknb2EctewQ",
+                                episode_no: "5",
+                                episode_title: "I'm With You",
+                                episode_description: "Lena learns the truth about the upcoming end of the war, and how the Legion is a much more deadly threat than she thought.",
+                                episode_thumbnail_url: "5.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "t9Xy57STTEaoR_s800o0Xg",
+                                episode_no: "6",
+                                episode_title: "Through to the End",
+                                episode_description: "Spearhead enjoys a brief respite near the cherry blossoms outside the wall, but a deadly attack brings the dangers of war even closer to home.",
+                                episode_thumbnail_url: "6.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "oSmppkf0gk6vv7B36e_ALg",
+                                episode_no: "7",
+                                episode_title: "Will You Remember Me?",
+                                episode_description: "As the day of the festival arrives, Lena and Shin watch the fireworks and enjoy a brief respite from their battles.",
+                                episode_thumbnail_url: "7.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "iN4mQeLBlk-G_ZcCgjGHoQ",
+                                episode_no: "8",
+                                episode_title: "Let's Go",
+                                episode_description: "Spearhead is given orders to undertake a pointless march into enemy territory, and not to stop until they are dead. Lena tries her best to stop this suicide mission from happening.",
+                                episode_thumbnail_url: "8.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "FrqTZvrf4EmbEvZSmtUdIQ",
+                                episode_no: "9",
+                                episode_title: "Goodbye",
+                                episode_description: "Shin confronts his brother deep within Legion held territory. But even if he wins, there's no going back.",
+                                episode_thumbnail_url: "9.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "yCwHc_mN80O9kaIXxTODAA",
+                                episode_no: "10",
+                                episode_title: "Thank You",
+                                episode_description: "After the climactic battle, the 86 move through unknown territory, finally free from war and the Republic.",
+                                episode_thumbnail_url: "10.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "qyuiJMDtq0i9aIK3iHFkcg",
+                                episode_no: "11",
+                                episode_title: "Here We Go",
+                                episode_description: "With pride in themselves and a vow to their fallen comrades, they will not stop until the end. And so, they reach their final resting place.",
+                                episode_thumbnail_url: "11.jpg",
+                                episode_video_url: ""
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 id: "6FEpwB7FUU60Ka0QvtuOwg",
@@ -634,7 +1634,120 @@ export const AnimeData = [
                 genre: ['animation', 'action', 'adventure'],
                 release_year: '2021',
                 no_of_seasons: '1',
-                img: 'Vivy.jpg'
+                img: 'Vivy.jpg',
+                titleImg: 'vivy.png',
+                episodes: [
+                    {
+                        season: "1",
+                        season_episodes: [
+                            {
+                                episode_id: "0vKYzELstk-1vzow6LoCFA",
+                                episode_no: "1",
+                                episode_title: "My Code - To Make Everyone Happy With My Singing",
+                                episode_description: "In a Dystopian future where AIs are beginning to massacre it's creators. A lone scientist tasks an AI with the mission to change the past.",
+                                episode_thumbnail_url: "1.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "QNwawIHYk0qIn1Vp2ObkVQ",
+                                episode_no: "2",
+                                episode_title: "Quarter Note - The Beginning of the One Hundred-Year Journey",
+                                episode_description: "In order to slow down AI evolution, Diva must prevent Assemblyman Aikawa's death from being the catalyst for the passing of the AI Naming Law that gives AIs some human rights.",
+                                episode_thumbnail_url: "2.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "kRY7wZ5TlEWD5XhTFcjbFg",
+                                episode_no: "3",
+                                episode_title: "A Tender Moon Tempo - A Pleasant Chat with the Stars",
+                                episode_description: "15 years have passed since Diva's first mission, and a new singularity point is approaching. The next mission takes her aboard the space tourism hotel named Sunrise.",
+                                episode_thumbnail_url: "3.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "Y_6L_AHiVkymM4-7kKkJ3w",
+                                episode_no: "4",
+                                episode_title: "Ensemble for Polaris - Our Promise",
+                                episode_description: "Sunrise's trajectory changes course and begins it's descent into Earth as the truth behind Estella is revealed.",
+                                episode_thumbnail_url: "4.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "DdjG4iWnJ066ANjvT7kv6g",
+                                episode_no: "5",
+                                episode_title: "Sing My Pleasure - To Make You Smile Again",
+                                episode_description: "A subtle change in the history of the Sunrise Incident has only further sped up the growth of AI autonomy and development. Matsumoto appears with a new mission for Diva.",
+                                episode_thumbnail_url: "5.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "pZ9NwVxhpEmJ8GssCT5q4A",
+                                episode_no: "6",
+                                episode_title: "Sing My Pleasure - I Love You",
+                                episode_description: "Diva and Matsumoto look for the real reason behind the malfunctioning shutdown program.",
+                                episode_thumbnail_url: "6.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "lzP_I2M5Kk-kRfmP2QHGIQ",
+                                episode_no: "7",
+                                episode_title: "Galaxy Anthem - To Make Everyone Happy With My Singing",
+                                episode_description: "Twelve AI songstresses from around the globe gather for a grand performance at the Zodiac Signs Festival.",
+                                episode_thumbnail_url: "7.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "bqporkQ9Q0-OIaWo2njiOA",
+                                episode_no: "8",
+                                episode_title: "Elegly Dedicated With Love - My One And Only Beloved Partner",
+                                episode_description: "In an effort to protect Ophelia from her cruel fate, Diva attempts to bond with her.",
+                                episode_thumbnail_url: "8.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "2H8KSaPS_kiZYlSh2Qrdfw",
+                                episode_no: "9",
+                                episode_title: "Harmony of One's Heart - My Mission, Your Future",
+                                episode_description: "With Ophelia having revealed her true form and Diva being confronted by a figure from Vivy's past, Diva and Matsumoto are forced to fight for the Singularity Project.",
+                                episode_thumbnail_url: "9.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "EwVZ_aVosU6Tyy4nJFS0Ew",
+                                episode_no: "10",
+                                episode_title: "Vivy Score - Singing From My Heart",
+                                episode_description: "With the final Convergence Point having passed, all that's left for Vivy is to wait, during which a boy she meets causes her to reflect upon the meaning of her mission.",
+                                episode_thumbnail_url: "10.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "L44xkVaAHkiznvxtYElE6w",
+                                episode_no: "11",
+                                episode_title: "World's End Modulation - April 11, 2161",
+                                episode_description: "The Singularity Project has failed, forcing Vivy and Matsumoto to fight to fix the present rather than the future.",
+                                episode_thumbnail_url: "11.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "qIdscbyNskGZpECJkvh_Kg",
+                                episode_no: "12",
+                                episode_title: "Refrain - My Mission",
+                                episode_description: "As TOAK prepares to launch an attack to prevent the satellites falling onto Earth, the Archive proposes a contest with Vivy.",
+                                episode_thumbnail_url: "12.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "mHkc1qm3QU6lHHC9cUCpqw",
+                                episode_no: "13",
+                                episode_title: "Fluorite Eye's Song",
+                                episode_description: "With one last chance to save the world, Vivy must recall her hundred year journey to finally sing from her heart.",
+                                episode_thumbnail_url: "13.jpg",
+                                episode_video_url: ""
+                            }
+                        ]
+
+                    }
+                ]
             },
             {
                 id: "3I0IxGq2wUq_XRZ4aq0Yqw",
@@ -643,7 +1756,111 @@ export const AnimeData = [
                 genre: ['animation', 'action', 'adventure', 'comedy', 'fantasy'],
                 release_year: '2021',
                 no_of_seasons: '1',
-                img: 'shaman-king.jpg'
+                img: 'shaman-king.jpg',
+                titleImg: 'shaman-king.png',
+                episodes: [
+                    {
+                        season: "1",
+                        season_episodes: [
+                            {
+                                episode_id: "FkWsmapwnEKRAG3HOuFZSw",
+                                episode_no: "1",
+                                episode_title: "The Man Who Dances with Ghosts",
+                                episode_description: "Shaman Yoh Asakura offers to help his new classmate Manta face a notorious thug with the aid of a legendary samurai spirit.",
+                                episode_thumbnail_url: "1.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "K3K9KgUoeEWudogcXjtbVQ",
+                                episode_no: "2",
+                                episode_title: "Another Shaman",
+                                episode_description: "Yoh and Manta encounter the shaman Ren, who shows no mercy when fighting a punk. Furious at Ren's misuse of his powers, Yoh faces him in battle.",
+                                episode_thumbnail_url: "2.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "yGxF80FMAU62aEeWbBzRbQ",
+                                episode_no: "3",
+                                episode_title: "Anna and Tao Jun",
+                                episode_description: "Anna tells Yoh about the new tournament to crown the next Shaman King. Ren's sister Jun challenges Yoh to a battle, with Amidamaru as the prize.",
+                                episode_thumbnail_url: "3.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "p0Hk_Ve8cUCb665q2xX-9A",
+                                episode_no: "4",
+                                episode_title: "Best Place",
+                                episode_description: "After possessing Ryu, Tokageroh takes Manta hostage. Yoh and Amidamaru fight him, but Tokageroh wields Harusame and they're at a disadvantage.",
+                                episode_thumbnail_url: "4.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "gapABF96DECNeGeIeK6NTw",
+                                episode_no: "5",
+                                episode_title: "Over Soul!",
+                                episode_description: "One of the Patch Officiants, Silva, unleashes his five animal spirits against Yoh to determine if he's worthy of participating in the Shaman Fight.",
+                                episode_thumbnail_url: "5.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "uZ2JtP_ve0a6vka3mrV8jQ",
+                                episode_no: "6",
+                                episode_title: "Yoh Vs. Horohoro!",
+                                episode_description: "Faust VIII, a necromancer who can manipulate corpses, enrages Yoh when he targets Manta for sadistic experimentation before their match.",
+                                episode_thumbnail_url: "6.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "Ieyv9wapw0e9h72lfI77_w",
+                                episode_no: "7",
+                                episode_title: "A Form of Courage",
+                                episode_description: "Faust VIII, a necromancer who can manipulate corpses, enrages Yoh when he targets Manta for sadistic experimentation before their match.",
+                                episode_thumbnail_url: "7.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "MqiBwCaCF0WP8Xk3kPAl1Q",
+                                episode_no: "8",
+                                episode_title: "Progress",
+                                episode_description: "With Ren as his next opponent, Yoh distances himself from Manta to ensure his friend's safety. Later, Yoh returns to Izumo to continue his training.",
+                                episode_thumbnail_url: "8.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "g60HLKgCHUKT21cg_--YCA",
+                                episode_no: "9",
+                                episode_title: "Yoh vs. Ren Again!",
+                                episode_description: "The last battle in the preliminary round begins. Fated rivals Yoh and Ren fight to the limit, but who will punch their ticket to the main tournament?",
+                                episode_thumbnail_url: "9.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "C8zDlJXY80ekJscGplO5Lg",
+                                episode_no: "10",
+                                episode_title: "Night in the Flame",
+                                episode_description: "Ren returns to China to take care of unfinished business. The BōZ Brothers ambush Yoh and Tamao, but a familiar face comes to their rescue.",
+                                episode_thumbnail_url: "10.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "sJHpDTSlo0ClPIaLN70JXw",
+                                episode_no: "11",
+                                episode_title: "Two Men",
+                                episode_description: "Back home, an imprisoned Ren vows to defeat his father after losing to him in a fight. Meanwhile, Yoh and the others set out for China to rescue Ren.",
+                                episode_thumbnail_url: "11.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "-Z7ZbTRL2UeKUMDWOCrEmg",
+                                episode_no: "12",
+                                episode_title: "Ren vs. En The End of the Tao",
+                                episode_description: "Ren and his allies make their way toward En. The head of the Tao family may be a formidable foe, but Yoh and company aren't ones to back down.",
+                                episode_thumbnail_url: "12.jpg",
+                                episode_video_url: ""
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 id: "jVKwmzi9FEuHzLndJVhEZQ",
@@ -652,7 +1869,119 @@ export const AnimeData = [
                 genre: ['animation', 'comedy', 'drama'],
                 release_year: '2021',
                 no_of_seasons: '1',
-                img: 'horimiya.jpg'
+                img: 'horimiya.jpg',
+                titleImg: 'horimiya.png',
+                episodes: [
+                    {
+                        season: "1",
+                        season_episodes: [
+                            {
+                                episode_id: "tkfeWcrXxE2VCJX3WBPhPg",
+                                episode_no: "1",
+                                episode_title: "A Tiny Happenstance",
+                                episode_description: "High school student Kyouko Hori develops a relationship with the quiet kid from her class Miyamaru after he walks her younger brother home.",
+                                episode_thumbnail_url: "1.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "Ewx7ykIwOUadPE6BgVhLwg",
+                                episode_no: "2",
+                                episode_title: "You Wear More Than One Face",
+                                episode_description: "Kyoko's mother showed up, asking about Izumi. Kyoko realized that she does not know Miyamura first name, so she starts to investigate about it.",
+                                episode_thumbnail_url: "2.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "_phbx_vha0uFsmG1xl3JbA",
+                                episode_no: "3",
+                                episode_title: "That's Why It's Okay",
+                                episode_description: "Izumi is carrying a nickname from the past that leaves him uncertain about all these new friendships.",
+                                episode_thumbnail_url: "3.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "kF8UmEPT0U-Ufp-GUDZuYw",
+                                episode_no: "4",
+                                episode_title: "Everybody Loves Somebody",
+                                episode_description: "The student council room becomes a cool hangout. Hori tries to get Miyamura flustered. An old friend brings out a new side of Miyamura.",
+                                episode_thumbnail_url: "4.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "J-C9h-iKmU2JzJqGKobifA",
+                                episode_no: "5",
+                                episode_title: "I Can't Say It Out Loud",
+                                episode_description: "Kyoko does not know how to face Izumi after his love declaration. But she'll have to do it, sooner or later.",
+                                episode_thumbnail_url: "5.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "efCYRFeU102jUt8wrQyLtA",
+                                episode_no: "6",
+                                episode_title: "This Summer's Going to Be a Hot One",
+                                episode_description: "Miyamura ends up staying the night at Hori's. Someone sees them going out from the same house and so rumors start spreading around school.",
+                                episode_thumbnail_url: "6.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "cD7IuIKnn0i_TwfbVSiqVQ",
+                                episode_no: "7",
+                                episode_title: "You're Here, I'm Here",
+                                episode_description: "Toru starting to get some attentions from someone that he isn't aware of. Yuki appears to keep a lot of things hidden inside her.",
+                                episode_thumbnail_url: "7.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "cdz8GGsE_U6dMpuYJJx38w",
+                                episode_no: "8",
+                                episode_title: "The Truth Deception Reveals",
+                                episode_description: "How the most famous couple in the school was formed and how maybe a new one will form.",
+                                episode_thumbnail_url: "8.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "Md34W7eqQk6weeHRSsFIXQ",
+                                episode_no: "9",
+                                episode_title: "It's Hard, but Not Impossible",
+                                episode_description: "How the most famous couple in the school was formed and how maybe a new one will form.",
+                                episode_thumbnail_url: "9.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "yNuhMlGxEUysH0oQxSy7Mw",
+                                episode_no: "10",
+                                episode_title: "Until the Snow Melts",
+                                episode_description: "How the most famous couple in the school was formed and how maybe a new one will form.",
+                                episode_thumbnail_url: "10.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "-rKPPbHc70Sqyx3XzaOwaA",
+                                episode_no: "11",
+                                episode_title: "It May Seem Like Hate",
+                                episode_description: "Akane uses to talk in a polite way and this ends up taking distances from everyone, but everyone wants to get closer to him. ",
+                                episode_thumbnail_url: "11.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "UCOQmZ4-tkK0Nzk9PLdPmA",
+                                episode_no: "12",
+                                episode_title: "Hitherto, and Forevermore",
+                                episode_description: "A lot of things are happening and everyone is getting ready for Christmas. There is who gets trouble with this and who makes big steps forward.",
+                                episode_thumbnail_url: "12.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "M1SBI6Gd-EWpv_3JLq06Xg",
+                                episode_no: "13",
+                                episode_title: "I Would Gift You the Sky",
+                                episode_description: "A lot of things are happening and everyone is getting ready for Christmas. There is who gets trouble with this and who makes big steps forward.",
+                                episode_thumbnail_url: "13.jpg",
+                                episode_video_url: ""
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 id: "2d6bhE2iIUWOfKbcfvf_hw",
@@ -661,7 +1990,111 @@ export const AnimeData = [
                 genre: ['animation', 'action', 'crime'],
                 release_year: '2021',
                 no_of_seasons: '1',
-                img: 'tokyo-revengers.jpg'
+                img: 'tokyo-revengers.jpg',
+                titleImg: 'tokyo-revengers.png',
+                episodes: [
+                    {
+                        season: "1",
+                        season_episodes: [
+                            {
+                                episode_id: "HzQyBVQP_0epsFYuBo-ZBQ",
+                                episode_no: "1",
+                                episode_title: "Reborn",
+                                episode_description: "Hanagaki Takemichi, a part-time worker, is suddenly pushed off the station platform onto the railroad tracks. After this incident, he awakens in the train with his old school friends and realizes he's reliving his life from 12 years ago.",
+                                episode_thumbnail_url: "1.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "zeWEPe5-AkqNJ8KCMXWt0w",
+                                episode_no: "2",
+                                episode_title: "Resist",
+                                episode_description: "As Takemichi and Naoto make a plan to save Hina, Takemichi remembers that his middle school years weren't as fun as he thought.",
+                                episode_thumbnail_url: "2.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "xIZEdGW5jUarD-1XYImdqA",
+                                episode_no: "3",
+                                episode_title: "Resolve",
+                                episode_description: "Takemichi finally confronts his past as he meets an important figure in the Tokyo Manji Gang.",
+                                episode_thumbnail_url: "3.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "97sknsJfRk2VhpDTzGbL4A",
+                                episode_no: "4",
+                                episode_title: "Return",
+                                episode_description: "As Takemichi enjoys his time in the past, the present becomes even more grim.",
+                                episode_thumbnail_url: "4.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "Ol8CxEtpdkuyAuiOcjkJtg",
+                                episode_no: "5",
+                                episode_title: "Releap",
+                                episode_description: "Takemichi searches for the cause of Toman's inner conflict.",
+                                episode_thumbnail_url: "5.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "ur966a1F2kan7Uv9TLn1kg",
+                                episode_no: "6",
+                                episode_title: "Regret",
+                                episode_description: "As the conflict with Moebius escalates, Takemichi returns to the present to piece together what happened.",
+                                episode_thumbnail_url: "6.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "Zce7s_5yOk-_vS8mxcywvQ",
+                                episode_no: "7",
+                                episode_title: "Revive",
+                                episode_description: "Moebius and Toman butt heads, as Pah-Chin's emotions reach a tipping point.",
+                                episode_thumbnail_url: "7.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "ZCfm7AiRN0miMsH07uv64Q",
+                                episode_no: "8",
+                                episode_title: "Rechange",
+                                episode_description: "Takemichi tells Mikey and Draken how he feels about the Tokyo Manji Gang. Later, Hinata and Takemichi go to a summer festival.",
+                                episode_thumbnail_url: "8.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "C4b2sBSPbkuJScGmnV0Tqw",
+                                episode_no: "9",
+                                episode_title: "Revolt",
+                                episode_description: "Takemichi and Mitsuya find Draken fighting the Moebius gang on his own. After Mikey arrives, the person who set the entire attack in motion appears.",
+                                episode_thumbnail_url: "9.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "BNusv1aVGU-2mIyHSEmMAA",
+                                episode_no: "10",
+                                episode_title: "Rerise",
+                                episode_description: "Takemichi carries Draken away and regroups with Hinata and Emma. As they wait for an ambulance, Kiyomasa and his crew confront them.",
+                                episode_thumbnail_url: "10.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "kDK5cHFZsU2bQrd5rRfIIg",
+                                episode_no: "11",
+                                episode_title: "Revenge",
+                                episode_description: "Naoto takes Takemichi to go meet Hinata. But despite the changes made in the present, Takemichi realizes that he himself has not changed at all.",
+                                episode_thumbnail_url: "11.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "G6mFLpkfAkmc87O_Rb3DHQ",
+                                episode_no: "12",
+                                episode_title: "Odds and Ends",
+                                episode_description: "In the present, Naoto and Takemichi attend a funeral and meet with a familiar face.",
+                                episode_thumbnail_url: "12.jpg",
+                                episode_video_url: ""
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 id: "HpYbXe8kuEGFgft8lFJxUw",
