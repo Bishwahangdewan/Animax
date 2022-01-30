@@ -2103,7 +2103,63 @@ export const AnimeData = [
                 genre: ['animation', 'action', 'adventure'],
                 release_year: '2021',
                 no_of_seasons: '1',
-                img: 'edens-zero.jpg'
+                img: 'edens-zero.jpg',
+                titleImg: 'edens-zero.png',
+                episodes: [
+                    {
+                        season: "1",
+                        season_episodes: [
+                            {
+                                episode_id: "FWEWFuCgPkSfdyMgY8V_3Q",
+                                episode_no: "1",
+                                episode_title: "Into the Sky Where Cherry Blossoms Flutter",
+                                episode_description: "Young Shiki Gazes into the sky fascinated by a comet. He Plans on finding Mother, a goddess of cosmos after Escaping Planet Granbell with Bcuber Rebecca and Happy on finding out that most of his robot friends suffer through a Virus.",
+                                episode_thumbnail_url: "1.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "xAGy64I2f0iWbgPSOQKLLA",
+                                episode_no: "2",
+                                episode_title: "The Girl and the Blue Cat",
+                                episode_description: "Young Shiki Gazes into the sky fascinated by a comet. He Plans on finding Mother, a goddess of cosmos after Escaping Planet Granbell with Bcuber Rebecca and Happy on finding out that most of his robot friends suffer through a Virus.",
+                                episode_thumbnail_url: "2.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "2bxjhK2jNEi6liaJCD8UHg",
+                                episode_no: "3",
+                                episode_title: "Adventurers",
+                                episode_description: "Young Shiki Gazes into the sky fascinated by a comet. He Plans on finding Mother, a goddess of cosmos after Escaping Planet Granbell with Bcuber Rebecca and Happy on finding out that most of his robot friends suffer through a Virus.",
+                                episode_thumbnail_url: "3.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "ZVgHHXGSNk6WAHnz4HR-wg",
+                                episode_no: "4",
+                                episode_title: "Adventurers",
+                                episode_description: "Young Shiki Gazes into the sky fascinated by a comet. He Plans on finding Mother, a goddess of cosmos after Escaping Planet Granbell with Bcuber Rebecca and Happy on finding out that most of his robot friends suffer through a Virus.",
+                                episode_thumbnail_url: "4.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "E5BNJDoLv0GhVT58pukuEw",
+                                episode_no: "5",
+                                episode_title: "Clash!! The Sibir Family",
+                                episode_description: "Young Shiki Gazes into the sky fascinated by a comet. He Plans on finding Mother, a goddess of cosmos after Escaping Planet Granbell with Bcuber Rebecca and Happy on finding out that most of his robot friends suffer through a Virus.",
+                                episode_thumbnail_url: "5.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "0SrXdK6nPUG0gjis4H5JkQ",
+                                episode_no: "6",
+                                episode_title: "The Skull Fairy",
+                                episode_description: "Young Shiki Gazes into the sky fascinated by a comet. He Plans on finding Mother, a goddess of cosmos after Escaping Planet Granbell with Bcuber Rebecca and Happy on finding out that most of his robot friends suffer through a Virus.",
+                                episode_thumbnail_url: "6.jpg",
+                                episode_video_url: ""
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 id: "riR5KPC0QUKUjkw6WhbWdw",
@@ -2112,7 +2168,111 @@ export const AnimeData = [
                 genre: ['animation', 'comedy', 'romance'],
                 release_year: '2021',
                 no_of_seasons: '1',
-                img: 'nagatoro.jpg'
+                img: 'nagatoro.jpg',
+                titleImg: 'nagatoro.png',
+                episodes: [
+                    {
+                        season: "1",
+                        season_episodes: [
+                            {
+                                episode_id: "Oz-LBkAAi0mHj6AjYNOyDg",
+                                episode_no: "1",
+                                episode_title: "Senpai is a bit.../Senpai, don't you ever get angry?",
+                                episode_description: "Senpai is a nerdy high schooler whose manga work is discovered by some loud girls in the library. They all tease him, but one among them, Nagatoro, takes it further than the others.",
+                                episode_thumbnail_url: "1.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "tI0xTeJFaUWm_JZO3oEdPQ",
+                                episode_no: "2",
+                                episode_title: "You Got Your Wish, Senpai!!/'Sup, Senpai?!",
+                                episode_description: "Naoto buys an erotic vampire manga which Nagatoro steals. The next day she proposes a game of accurately poking where each other's nipples are under their clothing.",
+                                episode_thumbnail_url: "2.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "1JdB4URoiU2Gui3AInalSg",
+                                episode_no: "3",
+                                episode_title: "Let's Play Again, Senpai/Over Here, Senpai",
+                                episode_description: "It's raining when Nagatoro and Naoto are on their way home. After finding shelter, Nagatoro invites him to her home which is close compared to his long walk home.",
+                                episode_thumbnail_url: "3.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "JIGtaid9GkKajA-_Nnc9-g",
+                                episode_no: "4",
+                                episode_title: "You're All Red, Senpai/Senpai, You Could Be a Little More...",
+                                episode_description: "Maki and Yoshi tease Naoto about being a virgin and force him to squeeze Maki's breasts. They flee when Nagatoro arrives.",
+                                episode_thumbnail_url: "4.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "UjGZqU10ZEazohvTBul8qw",
+                                episode_no: "5",
+                                episode_title: "Senpai's Poofball",
+                                episode_description: "Nagatoro offers to trim Naoto's long hair and he eventually agrees, but she is called away by Maki and Yoshi who capture Naoto and threaten to shave his entire head.",
+                                episode_thumbnail_url: "5.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "GJd2mi8dOkKjROIgJ1s1CA",
+                                episode_no: "6",
+                                episode_title: "You're Such a Wimp, Senpai!",
+                                episode_description: "Senpai awakens in another world, where he and Nekotoro set out on an adventure to defeat the demon king. Nagatoro invites Senpai to the beach.",
+                                episode_thumbnail_url: "6.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "a7UWecy16EaQYurZGdNC2A",
+                                episode_no: "7",
+                                episode_title: "Senpai, Want to Go to the Festival?",
+                                episode_description: "Naoto is surprised Nagatoro doesn't invite him to the summer festival so he goes by himself and bumps into Maki and Yoshi.",
+                                episode_thumbnail_url: "7.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "E-oX9tzKoUuBxrE1SPSL5A",
+                                episode_no: "8",
+                                episode_title: "That Might Actually Be Fun, Senpai!",
+                                episode_description: "Naoto becomes obsessed with a new game and forgets to study. Nagatoro warns him that if he has to repeat the year that he would end up in the same class as her. ",
+                                episode_thumbnail_url: "8.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "8Pm3Rj_2pkKIBoC6zkBNRA",
+                                episode_no: "9",
+                                episode_title: "Senpai's Such a Closet Perv!!!",
+                                episode_description: "Nagatoro makes a bet that Senpai has lewd books in the club room, but things don't go quite as she plans.",
+                                episode_thumbnail_url: "9.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "EtJMvohqHUWc3NgZZAS8Tw",
+                                episode_no: "10",
+                                episode_title: "You Seem Pretty Stiff, Senpai",
+                                episode_description: "Nagatoro notices that Naoto is a slow runner and demands he jogs with her. Naoto needs a model for his latest drawing and Nagatoro teasingly insists on modeling for him.",
+                                episode_thumbnail_url: "10.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "En3Or92C2kmLBx_qwfHIdQ",
+                                episode_no: "11",
+                                episode_title: "What Do You Think, Senpai?",
+                                episode_description: "Naoto is not confident as the President's previous exhibit was a nude painting of herself. Nagatoro is suspicious at Naoto having kept the painting but does offer to model for him.",
+                                episode_thumbnail_url: "11.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "H02wOriLYEKTQSGeZtwDaQ",
+                                episode_no: "12",
+                                episode_title: "Did You Hear Her Talk About Love, Senpai?",
+                                episode_description: "Naoto produces paintings of Nagatoro's daily life. Gamo suggests sabotaging the President but Naoto insists he will compete fairly.",
+                                episode_thumbnail_url: "12.jpg",
+                                episode_video_url: ""
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 id: "38F9psSTokunmvmpe2HWrQ",
@@ -2121,7 +2281,111 @@ export const AnimeData = [
                 genre: ['animation', 'action', 'drama'],
                 release_year: '2021',
                 no_of_seasons: '1',
-                img: 'komi.jpg'
+                img: 'komi.jpg',
+                titleImg: 'komi.png',
+                episodes: [
+                    {
+                        season: "1",
+                        season_episodes: [
+                            {
+                                episode_id: "HlUz2jEjiEO7RPg5LYhTYg",
+                                episode_no: "1",
+                                episode_title: "It's Just, I Wish I Could Speak.",
+                                episode_description: "Timid Tadano is a total wallflower, and that's just the way he likes it. But all that changes when he finds himself alone in a classroom on the first day of high school with the legendary Komi.",
+                                episode_thumbnail_url: "1.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "XPu7HO4fN0eRlulkmP919A",
+                                episode_no: "2",
+                                episode_title: "It's Just a Childhood Friend. Plus More",
+                                episode_description: "Tadano struggles to find friends for Komi so he resorts to asking his trusty childhood friend, Osana Najimi.",
+                                episode_thumbnail_url: "2.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "5rAeV_YwUkKCgjgLnw4c3Q",
+                                episode_no: "3",
+                                episode_title: "It's Just Stage Fright. Plus More",
+                                episode_description: "Tadano and Najimi begin searching for new friends for Komi. They eventually land on the socially anxious Agari.",
+                                episode_thumbnail_url: "3.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "ZEtkpA7NCUap3i_b6Hb_JA",
+                                episode_no: "4",
+                                episode_title: "It's Just a Physical. Plus More",
+                                episode_description: "During the school health checkup, competitive classmate Yadano is determined to clock better results than Komi, whom she sees as her ultimate rival.",
+                                episode_thumbnail_url: "4.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "35L3EFO7hE-zK9Z7ZBpUng",
+                                episode_no: "5",
+                                episode_title: "It's Just My Summer Uniform. Plus More",
+                                episode_description: "Komi wonders why everyone starts staring at her when, like the rest of the student body, she switches from her winter to her summer school uniform.",
+                                episode_thumbnail_url: "5.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "GsVkV7Tc5EmfMptWxwdIWw",
+                                episode_no: "6",
+                                episode_title: "It's Just a Joke. Plus More",
+                                episode_description: "When Tadano gets to school, he finds Komi waiting for him in the classroom. She then nervously hands him a letter.",
+                                episode_thumbnail_url: "6.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "iCtGyVBN9ES5xsAmzg9M0w",
+                                episode_no: "7",
+                                episode_title: "It's Just the Pool. Plus More",
+                                episode_description: "Komi spends a lot of time getting ready for her trip to the local pool with Tadano and Najimi. Once they're there, they bump into even more friends.",
+                                episode_thumbnail_url: "7.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "7VTxN9zQrUea7FF-ivVq9w",
+                                episode_no: "8",
+                                episode_title: "It's Just Obon. Plus More",
+                                episode_description: "It's the Obon holidays, and Komi is visiting her grandma's house. She can't help but feel a little awkward around her extended family.",
+                                episode_thumbnail_url: "8.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "HdGbhUtW0ku1GmOt9a9Gag",
+                                episode_no: "9",
+                                episode_title: "It's Just a Country Kid. Plus More",
+                                episode_description: "It's the first day of the new semester and everyone is happy to see Komi again, but then a student named Inaka starts to follow her around.",
+                                episode_thumbnail_url: "8.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "WmN-SHMyvUe58vHk76WrVA",
+                                episode_no: "10",
+                                episode_title: "It's Just Sports Day. Plus More",
+                                episode_description: "It's the first day of the new semester and everyone is happy to see Komi again, but then a student named Inaka starts to follow her around.",
+                                episode_thumbnail_url: "10.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "5IqM8_3QKEuGiEItg1C3YQ",
+                                episode_no: "11",
+                                episode_title: "It's Just a Performance For The Culture Festival. Plus More",
+                                episode_description: "It's the first day of the new semester and everyone is happy to see Komi again, but then a student named Inaka starts to follow her around.",
+                                episode_thumbnail_url: "11.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "A55kTE11i0WWG9-ghATgcw",
+                                episode_no: "12",
+                                episode_title: "It's Just The Culture Festival.",
+                                episode_description: "It's the first day of the new semester and everyone is happy to see Komi again, but then a student named Inaka starts to follow her around.",
+                                episode_thumbnail_url: "12.jpg",
+                                episode_video_url: ""
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 id: "xQIjy5EgJ0i2hKyvaVeK9A",
@@ -2130,7 +2394,237 @@ export const AnimeData = [
                 genre: ['comedy', 'action', 'comedy'],
                 release_year: '2021',
                 no_of_seasons: '1',
-                img: 'odd-taxi.jpg'
+                img: 'odd-taxi.jpg',
+                titleImg: 'odd-taxi.png',
+                episodes: [
+                    {
+                        season: "1",
+                        season_episodes: [
+                            {
+                                episode_id: "fCIGO5A2QEm37JUyaJyA1w",
+                                episode_no: "1",
+                                episode_title: "The Eccentric Driver",
+                                episode_description: "While driving through the streets in his taxi, Odokawa overhears on the radio the news of a young student from Nerima who is missing.",
+                                episode_thumbnail_url: "1.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "gNfAgUcNP0qEnqz8WmjMVg",
+                                episode_no: "2",
+                                episode_title: "How To Spend a Long Night",
+                                episode_description: "Kotokawa trades phone numbers with Shirakawa She also asks him for a meal on her days off.",
+                                episode_thumbnail_url: "2.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "e-CTc5AUVU-nk-YCQe2gFQ",
+                                episode_no: "3",
+                                episode_title: "Borrowed Plumes and the Bodyguard",
+                                episode_description: "While Odokawa stalls for the police, Dobu offers the taxi driver an alliance to find the missing girl.",
+                                episode_thumbnail_url: "3.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "xkz2rKxxrkiDvTFyscomrw",
+                                episode_no: "4",
+                                episode_title: "Tanaka's Revolution",
+                                episode_description: "Tanaka, a gacha addicted game developer, reminisces upon his life and regrets.",
+                                episode_thumbnail_url: "4.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "KIeMSZ-2wkih34xw9TKFZA",
+                                episode_no: "5",
+                                episode_title: "Don't Call Me an Idol",
+                                episode_description: "One of Odokawa's passengers raises a red flag. The consequences of Shirakawa's actions begin to catch up with Gouriki, and Kakihana starts down a slippery slope.",
+                                episode_thumbnail_url: "5.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "TGyXEsOXsE-7bn995N2AFw",
+                                episode_no: "6",
+                                episode_title: "Let Me Hear You Say, What the Hell?",
+                                episode_description: "A show of appreciation leads to mass chaos as Tanaka makes his first move. Odokawa confronts Shirakawa, and Dobu runs into an obstacle.",
+                                episode_thumbnail_url: "6.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "yT_Qd0CCEkWo-wHwrMs-ng",
+                                episode_no: "7",
+                                episode_title: "Trick or Treat",
+                                episode_description: "Odokawa gets an ally in the police force, albeit one who doesn't fully trust him. Kakihana's self-destructive habits catch up to him.",
+                                episode_thumbnail_url: "7.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "zr0xF9RNRUeIY9GH9CqmJA",
+                                episode_no: "8",
+                                episode_title: "Bless You",
+                                episode_description: "While Shiho requests to escape her obligations, Odokawa searches for Kakihana. Dobu gets Odokawa to lay bait for Yano.",
+                                episode_thumbnail_url: "8.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "4IRFwgQtbkSCTrpaioUhlQ",
+                                episode_no: "9",
+                                episode_title: "The Hero's Melancholy",
+                                episode_description: "Odokawa, with Dobu's help, attempts to rescue Kakihana. Kabasawa starts to regret his rapid rise to fame while Gouriki starts investigating Odokawa's past in an attempt to help him.",
+                                episode_thumbnail_url: "9.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "FSA4D-vPVUGP88zg1UgbTA",
+                                episode_no: "10",
+                                episode_title: "We Have No Tomorrow",
+                                episode_description: "On Odokawa's advice, Imai puts up a ruse. Despite Homosapiens's loss, Shibagaki clings to the hope that they can come back from it. Odokawa gets an ally inside Yano's network.",
+                                episode_thumbnail_url: "10.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "FSA4D-vPVUGP88zg1UgbTA",
+                                episode_no: "10",
+                                episode_title: "We Have No Tomorrow",
+                                episode_description: "On Odokawa's advice, Imai puts up a ruse. Despite Homosapiens's loss, Shibagaki clings to the hope that they can come back from it. Odokawa gets an ally inside Yano's network.",
+                                episode_thumbnail_url: "10.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "-gpzoObzekO-KAn7tPjywA",
+                                episode_no: "11",
+                                episode_title: "If We Could Go Back to That Day",
+                                episode_description: "A tragic revelation causes Rui to reminisce on her part in it. An overwhelmed Baba calls his partnership off. Yano makes his move.",
+                                episode_thumbnail_url: "11.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "C17LytnnWEuk1nzdLwDVLA",
+                                episode_no: "12",
+                                episode_title: "Not Enough",
+                                episode_description: "As Yano's plan plays out, Dobu enacts his own. Homosapiens's routine breaks down on stage, and Odokawa and Dobu are confronted at the home stretch.",
+                                episode_thumbnail_url: "12.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "-P0PLAD-50uKDibre5xFvA",
+                                episode_no: "13",
+                                episode_title: "Where To?",
+                                episode_description: "Odokawa attempts to flee Yano with the money. The truth about the Nerima girl and Odokawa's past is finally revealed.",
+                                episode_thumbnail_url: "13.jpg",
+                                episode_video_url: ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        label: 'Action',
+        anime_list: [
+            {
+                id: "B7Pe2bXufkqvdY_hBiNEKA",
+                title: "Fairy Tail",
+                description: "Lucy, an aspiring Celestial Wizard, becomes a friend and ally to powerful wizards Natsu, Gray, and Erza, who are part of the (in)famous wizard guild, Fairy Tail.",
+                genre: ['animation', 'action', 'adventure'],
+                release_year: '2009',
+                no_of_seasons: '8',
+                img: 'fairy-tail.jpg',
+                titleImg: 'fairy-tail.png',
+                episodes: [
+                    {
+                        season: "1",
+                        season_episodes: [
+                            {
+                                episode_id: "B7Pe2bXufkqvdY_hBiNEKA",
+                                episode_no: "1",
+                                episode_title: "Fairy Tail",
+                                episode_description: "Lucy Heartfilia is an inexpert magician who wants to join the Fairy Tail guild. During this first adventure, she meets the fire magician called Natsu Dragneel and his blue and talking cat; Happy.",
+                                episode_thumbnail_url: "1.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "IcfL5vXcUkGN1PLxw2Y22g",
+                                episode_no: "2",
+                                episode_title: "The Fire Dragon, the Monkey, and the Ox",
+                                episode_description: "As the Magic Council discuss what is to be done about Fairy Tail's destructive behavior Natsu and Happy return to Fairy Tail bringing Lucy along to join the guild.",
+                                episode_thumbnail_url: "2.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "fFmYUqKVhkywlIy3Id7LaA",
+                                episode_no: "3",
+                                episode_title: "Infiltrate! The Everlue Mansion!",
+                                episode_description: "Lucy has moved into a house in Magnolia where her guild Fairy Tail is located. As Lucy is talking about how great her house is Natsu and Happy barge in, to Lucy's dismay.",
+                                episode_thumbnail_url: "3.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "3GjCboX2uEeAtOLIv-1fsw",
+                                episode_no: "4",
+                                episode_title: "Infiltrate! The Everlue Mansion!",
+                                episode_description: "Natsu has taken care of the guards employed by Duke Everlue and partially destroyed the mansion in the process. Meanwhile, Lucy and Happy struggle with Duke Everlue himself in an attempt to take the book Fairy Tail has been employed to steal.",
+                                episode_thumbnail_url: "4.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "80QdkWL2f0-Jv8Mc97HkKA",
+                                episode_no: "5",
+                                episode_title: "The Armoured Wizard",
+                                episode_description: "Natsu, Happy and Lucy have returned to Fairy Tail after finishing their last job. They become bored just hanging around and decide to go on another job especially since Lucy cannot afford to pay the next months rent since they did not get money for the previous job.",
+                                episode_thumbnail_url: "5.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "ju315hLEaUijmGA8656vXw",
+                                episode_no: "6",
+                                episode_title: "The Fairies in the Wind",
+                                episode_description: "Makarov, master of Fairy Tail, is away at a meeting of local guild masters. Meanwhile, members of the dark guild, Eisenwald, have taken over a train as part of a plot.",
+                                episode_thumbnail_url: "6.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "bgwnYKGdQ0SvondHZvhGRQ",
+                                episode_no: "7",
+                                episode_title: "Flame and Wind",
+                                episode_description: "Natsu defeats Kageyama, whom Erza determines has the ability to dispel the wind barrier trapping them inside Oshibana Station.",
+                                episode_thumbnail_url: "7.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "LgsjaDOPa065Md4OJkU5Mw",
+                                episode_no: "8",
+                                episode_title: "The Strongest Team!!!",
+                                episode_description: "Natsu finally knocks the wind out of Erigor's sails in a scorcher of a battle - but Fairy Tail's strongest team still has a war to fight when the death flute's dark magic plays an evil scale of epic proportions.",
+                                episode_thumbnail_url: "8.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "uCxV-nar7EOvhuOoAWZUbQ",
+                                episode_no: "9",
+                                episode_title: "Natsu, Eat the Village",
+                                episode_description: "While traveling home with grumbling bellies, the team stumbles upon a deserted village with lots of yummy grub lying around, but Erza's gut tells her something's up.",
+                                episode_thumbnail_url: "9.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "kkr20ClfDEGukFXBzvwNZg",
+                                episode_no: "10",
+                                episode_title: "Natsu vs. Erza",
+                                episode_description: "Now that they've made it back to Fairy Tail headquarters, it's time for Erza to answer Natsu's challenge! Before things really get heated, the Guild Council stops by to arrest Erza, but Natsu's not about to let her get away that easily!",
+                                episode_thumbnail_url: "10.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "X5GE-Mkyak2yY69JcTmKLg",
+                                episode_no: "11",
+                                episode_title: "Cursed Island",
+                                episode_description: "Natsu, Happy and Lucy tread some seriously troubled waters when they break guild rules to take an S-class job request and end up shipwrecked on the cursed Galuna Island!",
+                                episode_thumbnail_url: "11.jpg",
+                                episode_video_url: ""
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     }
