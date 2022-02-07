@@ -1646,7 +1646,7 @@ export const AnimeData = [
                 genre: ['animation', 'action', 'adventure'],
                 release_year: '2021',
                 no_of_seasons: '1',
-                img: 'Vivy.jpg',
+                img: 'vivy.jpg',
                 titleImg: 'vivy.png',
                 episodes: [
                     {
