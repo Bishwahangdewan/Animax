@@ -84,7 +84,7 @@ const TopDisplay = () => {
                 toggleVideo ?
                     <div className="display-container">
                         <video autoPlay loop id="myVideo" style={toggleVideo ? fullHeight : ''}>
-                            <source src={Video} type="video/mp4" />
+                            <source src={`/assets/videos/${topDisplayData.coverVideo}`} type="video/mp4" />
                         </video>
 
                         <div className="video-container">

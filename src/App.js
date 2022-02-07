@@ -13,6 +13,7 @@ import AnimeDetails from './pages/animeDetails/AnimeDetailspages';
 import VideoPlayer from './components/VideoPlayer/VideoPlayer.component';
 import SearchPage from './pages/SearchPage/SearchPage.pages';
 import ResponsiveHeader from './components/ResponsiveHeader/ResponsiveHeader.component';
+import Footer from './components/Footer/Footer.components';
 
 //import Firebase Services
 import { auth, onAuthStateChanged } from './firebase/firebase';
@@ -65,6 +66,8 @@ class App extends React.Component {
           <Route path="/video/:anime_id/:video_id" element={this.state.uid ? <VideoPlayer /> : <Navigate to="/signin" />} />
           <Route path="/search" element={this.state.uid ? <SearchPage /> : <Navigate to="/signin" />} />
         </Routes>
+
+        <Footer />
       </div>
     )
   }

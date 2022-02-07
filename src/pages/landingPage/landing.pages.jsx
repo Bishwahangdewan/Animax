@@ -55,12 +55,6 @@ const LandingPage = () => (
         <Accordion />
 
         <hr />
-
-        <div className="footer">
-            <p>This site is created by Bishwa Hang Dewan</p>
-            <p>&copy; 2022 Animax.All rights Reserved</p>
-
-        </div>
     </div>
 )
 

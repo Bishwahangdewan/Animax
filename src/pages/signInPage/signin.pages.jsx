@@ -73,10 +73,6 @@ const SignIn = () => {
                             <CustomButton className="submit-btn" primary>Submit</CustomButton>
                         </form>
 
-                        <div className="button">
-                            <CustomButton google>Sign in with Google</CustomButton>
-                        </div>
-
                         <p className='no-acc'>Dont' have an Account ? <Link className="primary-link" to="signup">Sign up</Link> here</p>
                     </div>
                 </div>

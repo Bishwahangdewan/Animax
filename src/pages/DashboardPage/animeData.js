@@ -11,6 +11,7 @@ export const AnimeData = [
                 no_of_seasons: '3',
                 img: 'demon-slayer.jpg',
                 titleImg: 'demon-slayer.png',
+                coverVideo: 'demon-slayer.mp4',
                 episodes: [
                     {
                         season: "1",
@@ -237,6 +238,7 @@ export const AnimeData = [
                 no_of_seasons: '4',
                 img: 'attack-on-titan.jpg',
                 titleImg: 'attack-on-titan.png',
+                coverVideo: 'attack-on-titan.mp4',
                 episodes: [
                     {
                         season: "1",
@@ -454,6 +456,7 @@ export const AnimeData = [
                 no_of_seasons: '2',
                 img: 'one-punch-man.jpg',
                 titleImg: 'one-punch-man.png',
+                coverVideo: 'one-punch-man.mp4',
                 episodes: [
                     {
                         season: "1",
@@ -568,6 +571,7 @@ export const AnimeData = [
                 no_of_seasons: '5',
                 img: 'my-hero-academia.jpg',
                 titleImg: 'my-hero-academia.png',
+                coverVideo: 'myhero.mp4',
                 episodes: [
                     {
                         season: "1",
@@ -689,6 +693,7 @@ export const AnimeData = [
                 no_of_seasons: '20',
                 img: 'one-piece.jpg',
                 titleImg: 'one-piece.png',
+                coverVideo: 'one-piece.mp4',
                 episodes: [
                     {
                         season: "1",
@@ -767,6 +772,7 @@ export const AnimeData = [
                 no_of_seasons: '4',
                 img: 'food-wars.jpg',
                 titleImg: 'food-wars.png',
+                coverVideo: 'food-wars.mp4',
                 episodes: [
                     {
                         season: "1",
@@ -864,6 +870,7 @@ export const AnimeData = [
                 no_of_seasons: 'NA',
                 img: 'fullmetal-alchemist.jpg',
                 titleImg: 'fullmetal-alchemist.png',
+                coverVideo: 'fullmetal.mp4',
                 episodes: [
                     {
                         season: "1",
@@ -969,6 +976,7 @@ export const AnimeData = [
                 no_of_seasons: '4',
                 img: 'haikyuu.jpg',
                 titleImg: 'haikyuu.png',
+                coverVideo: 'haikyuu.mp4',
                 episodes: [
                     {
                         season: "1",
@@ -1066,6 +1074,7 @@ export const AnimeData = [
                 no_of_seasons: '1',
                 img: 'steins-gate.jpg',
                 titleImg: 'steins-gate.png',
+                coverVideo: 'gate.mp4',
                 episodes: [
                     {
                         season: "1",
@@ -1171,6 +1180,7 @@ export const AnimeData = [
                 no_of_seasons: 'NA',
                 img: 'boruto.jpg',
                 titleImg: 'boruto.png',
+                coverVideo: 'boruto.mp4',
                 episodes: [
                     {
                         season: "1",
@@ -1308,6 +1318,7 @@ export const AnimeData = [
                 no_of_seasons: '5',
                 img: '7-deadly-sins.jpg',
                 titleImg: '7-deadly-sins.png',
+                coverVideo: 'sins.mp4',
                 episodes: [
                     {
                         season: "1",
@@ -1413,6 +1424,7 @@ export const AnimeData = [
                 no_of_seasons: '1',
                 img: 'jujutsu-kaisen.jpg',
                 titleImg: 'jujutsu-kaisen.png',
+                coverVideo: "jujutsu-kaisen.mp4",
                 episodes: [
                     {
                         season: "1",
@@ -2535,7 +2547,7 @@ export const AnimeData = [
                         season: "1",
                         season_episodes: [
                             {
-                                episode_id: "B7Pe2bXufkqvdY_hBiNEKA",
+                                episode_id: "HJtSRNng2kmidk8iUDloJg",
                                 episode_no: "1",
                                 episode_title: "Fairy Tail",
                                 episode_description: "Lucy Heartfilia is an inexpert magician who wants to join the Fairy Tail guild. During this first adventure, she meets the fire magician called Natsu Dragneel and his blue and talking cat; Happy.",
@@ -2620,6 +2632,475 @@ export const AnimeData = [
                                 episode_title: "Cursed Island",
                                 episode_description: "Natsu, Happy and Lucy tread some seriously troubled waters when they break guild rules to take an S-class job request and end up shipwrecked on the cursed Galuna Island!",
                                 episode_thumbnail_url: "11.jpg",
+                                episode_video_url: ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                id: "GvOdWgm3GEWMW8GatVL3ng",
+                title: "Fate: Stay Night",
+                description: "Amateur mage Shirou Emiya gets involved in a fight between mages using mythological heroes.",
+                genre: ['animation', 'action', 'adventure'],
+                release_year: '2009',
+                no_of_seasons: '1',
+                img: 'fate.jpg',
+                titleImg: 'fate.png',
+                episodes: [
+                    {
+                        season: "1",
+                        season_episodes: [
+                            {
+                                episode_id: "px_4mmIKXUup7rN12Qrbzw",
+                                episode_no: "1",
+                                episode_title: "Hajimari no hi",
+                                episode_description: "A silver-haired girl warns Shirou Emiya of the Holy Grail War. Rin Tohsaka summons her Servant Archer and goes to look for other Masters to fight.",
+                                episode_thumbnail_url: "1.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "9UsxhRzhck62tVmg--edsw",
+                                episode_no: "2",
+                                episode_title: "Unmei no yoru",
+                                episode_description: "Shirou gets killed by Lancer, but Rin brings him back to life. When Lancer tries to kill Shirou again, Shirou summons Saber.",
+                                episode_thumbnail_url: "2.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "BjeoJtSLb0OasKCOesI2yQ",
+                                episode_no: "3",
+                                episode_title: "Kaimaku",
+                                episode_description: "Saber and Lancer do battle briefly. Shirou meets Rin and learns about the Holy Grail War.",
+                                episode_thumbnail_url: "3.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "Zwxg7AZj9kyp2HIi7IbU6A",
+                                episode_no: "4",
+                                episode_title: "Saikyou no teki",
+                                episode_description: "The silver-haired girl, Illya von Einzbrn, summons her Servant, the Berseker hero Heracles, to attack Shirou and Saber.",
+                                episode_thumbnail_url: "4.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "XUQW7HQ0_EyQsTlCDIM89g",
+                                episode_no: "5",
+                                episode_title: "Majutsushi futari Zenpen",
+                                episode_description: "Shirou introduces Saber to his close friends. Later on, he is attacked by Rin, but a female Servant appears.",
+                                episode_thumbnail_url: "5.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "NCWmXZGMYE2l075WN-SBSw",
+                                episode_no: "6",
+                                episode_title: "Majutsushi futari kouhen",
+                                episode_description: "Shirou and Rin form an alliance to track down the female Servant, Rider.",
+                                episode_thumbnail_url: "6.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "8AdDk07AlUWX7BwjH5-4Mw",
+                                episode_no: "7",
+                                episode_title: "Shundou",
+                                episode_description: "aber is furious that Shirou did not get her involved to track down Rider. Later on, Shirou encounters Rider and her master, Shinji Mato.",
+                                episode_thumbnail_url: "7.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "ZVoEAS5nEU2w61-UxC-keQ",
+                                episode_no: "8",
+                                episode_title: "Fukyo no oto",
+                                episode_description: "Shinji directs Shirou to Ryudo Temple, citing there is a powerful Servant there. Shirou and Saber continue to clash. Rin moves in with Shirou.",
+                                episode_thumbnail_url: "8.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "935pJ2ZsJ0O7jw4RnU3yXw",
+                                episode_no: "9",
+                                episode_title: "Gekka ryuurei",
+                                episode_description: "Saber battles the Servant, Assassin, but is confronted by another Servant who can cast magic.",
+                                episode_thumbnail_url: "9.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "tSEicqyEG0eqF8mzKQbMqA",
+                                episode_no: "10",
+                                episode_title: "Odayakana makuai",
+                                episode_description: "Shirou has a quiet day with Saber, Illya and Rin.",
+                                episode_thumbnail_url: "10.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "mpaczhE2LkqMFJk23qhzWw",
+                                episode_no: "11",
+                                episode_title: "Senketsu shinden",
+                                episode_description: "Shirou is caught in a trap by Rider.",
+                                episode_thumbnail_url: "11.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "bdP8n8zIzEOG-QG8jVRSWA",
+                                episode_no: "12",
+                                episode_title: "Sora o saku",
+                                episode_description: "Saber and Rider do battle.",
+                                episode_thumbnail_url: "12.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "rXPQ9aPy-UO8-hlhABcWWw",
+                                episode_no: "13",
+                                episode_title: "Fuyu no shiro",
+                                episode_description: "As Saber rests from her battle, she recalls her time as King of Britain. Shirou is kidnapped by Illya.",
+                                episode_thumbnail_url: "13.jpg",
+                                episode_video_url: ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                id: "-F0_Iaa-UU2VzHGUkTQn7g",
+                title: "Samurai Champoo",
+                description: "Fuu, a waitress who works in a teahouse, rescues two master swordsmen, Mugen and Jin, from their execution to help her find the samurai who smells of sunflowers.",
+                genre: ['animation', 'action', 'adventure'],
+                release_year: '2004',
+                no_of_seasons: '1',
+                img: 'samurai-champoo.jpg',
+                titleImg: 'samurai-champoo.png',
+                episodes: [
+                    {
+                        season: "1",
+                        season_episodes: [
+                            {
+                                episode_id: "QK0bNtbkjUWKe55GqrQBCA",
+                                episode_no: "1",
+                                episode_title: "Shippû dotô",
+                                episode_description: "When two vagrant samurais stumble into waitress Fuu, the three get in trouble with the local magistrate.",
+                                episode_thumbnail_url: "1.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "Qw4V96PkpE6LWI5h4r-aFg",
+                                episode_no: "2",
+                                episode_title: "Hyakkiyakô",
+                                episode_description: "After Mugen cuts off a former enemy's arm, the enemy sets out to extract revenge on him by kidnapping Fuu and kill Mugen and Jin.",
+                                episode_thumbnail_url: "2.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "Bbjd8EXoXUevlNumHs7jcA",
+                                episode_no: "3",
+                                episode_title: "Ishindenshin sono ichi",
+                                episode_description: "After running away from Fuu, Jin and Mugen enter a town where they are hired by opposing gangs as body guards.",
+                                episode_thumbnail_url: "3.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "WXvKi_lIYUuVN_dBZgjmDA",
+                                episode_no: "4",
+                                episode_title: "Ishindenshin sono ni",
+                                episode_description: "The trio's reunion is put on stand still as they all must partake in gang warfare.",
+                                episode_thumbnail_url: "4.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "tmU3ApwQZUmf7_tVkiXnOA",
+                                episode_no: "5",
+                                episode_title: "Bajitôfû",
+                                episode_description: "Looking for enough money to catch a ferry, Fuu stumbles upon an artist looking for models to paint - but is this painter all he's really set out to be?",
+                                episode_thumbnail_url: "5.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "iXhZ0XLUsESSEvpfg4jPpA",
+                                episode_no: "6",
+                                episode_title: "Akage ijin",
+                                episode_description: "Mugen and Jin lose their weapons and their appetites in a rice eating contest. The only way for them to get them back is by posing as tour guides.",
+                                episode_thumbnail_url: "6.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "bd2QDvp4fEic275XDJRUiA",
+                                episode_no: "7",
+                                episode_title: "Shimensoka",
+                                episode_description: "Fuu is caught in a web of deception when she falls for a pick pocket with a heart of gold.",
+                                episode_thumbnail_url: "7.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "Ob73iUzABUi6fIqNU-myeQ",
+                                episode_no: "8",
+                                episode_title: "Yuigadokuson",
+                                episode_description: "A sword of sling slinger with a crush on Fuu reveals the dark secret of Jin's past. To restore his good name Jin will need to dual him.",
+                                episode_thumbnail_url: "8.jpg",
+                                episode_video_url: ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                id: "96NQaXRxCkuWbcm3YMMO_Q",
+                title: "Tokyo Ghoul",
+                description: "A Tokyo college student is attacked by a ghoul, a superpowered human who feeds on human flesh. He survives, but has become part ghoul and becomes a fugitive on the run.",
+                genre: ['animation', 'action', 'drama'],
+                release_year: '2014',
+                no_of_seasons: '4',
+                img: 'tokyo-ghoul.jpg',
+                titleImg: 'tokyo-ghoul.png',
+                episodes: [
+                    {
+                        season: "1",
+                        season_episodes: [
+                            {
+                                episode_id: "Mu2_bpqhgUywKs1wlfJYQA",
+                                episode_no: "1",
+                                episode_title: "Tragedy",
+                                episode_description: "An ordinary college student named Kaneki encounters Rize, a girl who is an avid reader like him, at the café he frequents. Little does he realize that his fate will change overnight.",
+                                episode_thumbnail_url: "1.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "NPFuXB0_ZECZ_gf3vEOUNA",
+                                episode_no: "2",
+                                episode_title: "Incubation",
+                                episode_description: "Kaneki struggles to adapt to his new nature with no success, until another ghoul, Nishiki Nishio attempts to prey on his friend Hideyoshi Nagachika and he must fight to protect him.",
+                                episode_thumbnail_url: "2.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "Hhm2z-iiQUuCgfjcd_UZkg",
+                                episode_no: "3",
+                                episode_title: "Dove",
+                                episode_description: "After saving his friend, Kaneki is taken in by Yoshimura and Touka Kirishima, ghouls who run the bar Anteiku, who teach him to blend in human society while hiding his true nature. However, another ghoul, Shu Tsukiyama approaches him with unknown intentions.",
+                                episode_thumbnail_url: "3.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "ZwfsMO3-ik-Ka9jEyesDoA",
+                                episode_no: "4",
+                                episode_title: "Supper",
+                                episode_description: "Kaneki befriends Tsukiyama and the two start hanging out. However, little does Kaneki know that Tsukiyama is preparing a mortal trap for him.",
+                                episode_thumbnail_url: "4.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "YqHf97qHjUCozI9m11KZ5Q",
+                                episode_no: "5",
+                                episode_title: "Scars",
+                                episode_description: "Intending to consume Kaneki himself, Tsukiyama prepares another trap for him, using Nishio's human girlfriend as a hostage.",
+                                episode_thumbnail_url: "5.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "lPVgqbvA30uCGnOJ_JLF6Q",
+                                episode_no: "6",
+                                episode_title: "Cloudburst",
+                                episode_description: "Tsukiyama is defeated by Touka with Kaneki and Nishio's help, but the recent developments in the 20th ward draw the attention of the police, who sends two of their investigators, Kureo Mado and Kotaro Amon to hunt down all ghouls in the area.",
+                                episode_thumbnail_url: "6.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "Y9YcVyFN40uKIhIUY5v1rA",
+                                episode_no: "7",
+                                episode_title: "Captivity",
+                                episode_description: "Hinami's mother is killed by Mado. Touka attacks members of the ghoul investigation and kills Kusaba, but is wounded by Mado. Kaneki tells Touka that he wants to fight the ghoul investigators and is given his mask.",
+                                episode_thumbnail_url: "7.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "i8B12KlYC0CyCg77p_c-1w",
+                                episode_no: "8",
+                                episode_title: "Circular",
+                                episode_description: "Hinami escapes from Anteiku and is confronted by Mado after he lured her with her dead mothers purse (arm in the manga). Touka and Kaneki went looking for her and faced Mado and Amon.",
+                                episode_thumbnail_url: "8.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "PSVUdAI-u0O2QqwYuSqL0A",
+                                episode_no: "9",
+                                episode_title: "Birdcage",
+                                episode_description: "After the battle with Mado, Hinami starts living with Touka and Kaneki. Still mourning the loss of his partner, Amon is relocated to the 11th ward, where the police is having trouble facing some dangerous ghouls who do not fear them.",
+                                episode_thumbnail_url: "9.jpg",
+                                episode_video_url: ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                id: "8eT4S4gV2kezBpIVgy_uHg",
+                title: "JoJo's Bizarre Adventure",
+                description: "The story of the Joestar family, who are possessed with intense psychic strength, and the adventures each member encounters throughout their lives.",
+                genre: ['animation', 'action', 'adventure'],
+                release_year: '2012',
+                no_of_seasons: '5',
+                img: 'jojo.jpg',
+                titleImg: 'jojo.png',
+                episodes: [
+                    {
+                        season: "1",
+                        season_episodes: [
+                            {
+                                episode_id: "zN_pyyaquUOHZnMNvwQAEg",
+                                episode_no: "1",
+                                episode_title: "Dio the Invader",
+                                episode_description: "In Victorian England, a coach meets with disaster, forever changing the fate of the accident's sole survivors.",
+                                episode_thumbnail_url: "1.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "D16ipIYIBEKeljRo1u41lw",
+                                episode_no: "2",
+                                episode_title: "Kako kara no tegami",
+                                episode_description: "Hostility grows between Jonathan and Dio, and forgotten secrets emerge; Jonathan is suspicious about the secret to the mask.",
+                                episode_thumbnail_url: "2.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "a4C8vf6M30WCHCwluUi7pg",
+                                episode_no: "3",
+                                episode_title: "Dio to no seishun",
+                                episode_description: "Having found an antidote and saved George, JoJo prepares to have Dio arrested. Speedwagon, who followed JoJo from London, helps prove Dio's guilt by presenting the druggist who sold Dio the poison.",
+                                episode_thumbnail_url: "3.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "Ro6MpC4t-UytOuK5B-JbgA",
+                                episode_no: "4",
+                                episode_title: "Hamon shissô ôbâdoraibu",
+                                episode_description: "Three days after Dio's attack on him and his father, JoJo awakens to find Erina nursing him back to health in a hospital. A strange man named Will A. Zeppeli arrives and shows JoJo how to employ the Ripple, which uses the energy of one's body to perform impressive feats of strength.",
+                                episode_thumbnail_url: "4.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "NqmNBczI_UuLrGYKZxJbcQ",
+                                episode_no: "5",
+                                episode_title: "Ankoku no kishi-tachi",
+                                episode_description: "Upon arriving in Windknights Lot, JoJo, Zeppeli and Speedwagon are lured by Poco, a talented pickpocket, to a graveyard at sunset.",
+                                episode_thumbnail_url: "5.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "NqmNBczI_UuLrGYKZxJbcQ",
+                                episode_no: "5",
+                                episode_title: "Ankoku no kishi-tachi",
+                                episode_description: "Upon arriving in Windknights Lot, JoJo, Zeppeli and Speedwagon are lured by Poco, a talented pickpocket, to a graveyard at sunset.",
+                                episode_thumbnail_url: "5.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "PIk6k_ie3EqQ0T6lafVqkA",
+                                episode_no: "6",
+                                episode_title: "Atashi no yûki",
+                                episode_description: "JoJo's battle with Bruford continues, with JoJo channeling an Overdrive attack through Bruford's sword. As Bruford's body disintegrates, he regains his human soul and becomes peaceful, leaving JoJo his sword.",
+                                episode_thumbnail_url: "6.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "d_3qt_sBbEqFWuliRyR6nA",
+                                episode_no: "7",
+                                episode_title: "Uketsugu mono",
+                                episode_description: "As JoJo continues fighting Tarkus, Zeppeli recalls that Tonpetty, who taught him how to use the Ripple, foretold Zeppeli's death in the very place he is right now.",
+                                episode_thumbnail_url: "7.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "PIk6k_ie3EqQ0T6lafVqkA",
+                                episode_no: "8",
+                                episode_title: "Kessen JoJo & Dio",
+                                episode_description: "After Dio sends a zombie named Doobie to attack Poco's sister, JoJo saves her, despite the fact that Doobie's head is filled with poisonous snakes.",
+                                episode_thumbnail_url: "8.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "B3tItavMwUyDp9KJH62qsw",
+                                episode_no: "9",
+                                episode_title: "Saigo no hamon",
+                                episode_description: "JoJo thinks he has killed Dio, but Dio decapitated himself before the Ripple reached him. Dio's zombie servant Wang Chung recovers Dio's head.",
+                                episode_thumbnail_url: "9.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "ZPxdmXJt6kqr_AMQsDJyXQ",
+                                episode_no: "10",
+                                episode_title: "Nyû Yôku no JoJo",
+                                episode_description: "In 1938, 49 years after JoJo's death, his compatriots Speedwagon and Straizo travel to Mexico, where they discover an underground room filled with masks and a petrified body believed to be the one who created them.",
+                                episode_thumbnail_url: "10.jpg",
+                                episode_video_url: ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                id: "d7GAGjyIa0uIl4gYysoGng",
+                title: "Naruto:Shippuden",
+                description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+                genre: ['animation', 'action', 'adventure'],
+                release_year: '2009',
+                no_of_seasons: '1',
+                img: 'naruto.jpg',
+                titleImg: 'naruto.png',
+                episodes: [
+                    {
+                        season: "1",
+                        season_episodes: [
+                            {
+                                episode_id: "-0A95A-GT0-nRGZbrvbX4Q",
+                                episode_no: "1",
+                                episode_title: "Kikyô",
+                                episode_description: "Naruto returns to Konoha after a two-and-a-half-year training journey with Jiraiya and is reunited with Sakura.",
+                                episode_thumbnail_url: "1.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "DMWBkCWc50GMI06X2fsG6g",
+                                episode_no: "2",
+                                episode_title: "Akatsuki, shidô",
+                                episode_description: "Kakashi gives Naruto and Sakura a test to see how far they had improved. Meanwhile, two Akatsuki members, Deidara and Sasori, arrive at the entrance of the Sunagakure to capture the One-Tailed Shukaku's host, Gaara.",
+                                episode_thumbnail_url: "2.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "9zD2X1BkJ0eipm2-dZrObQ",
+                                episode_no: "3",
+                                episode_title: "Shûgyô no seika",
+                                episode_description: "Sakura and Naruto both demonstrate their newly acquired skills. Meanwhile, Deidara commences his attack on Sunagakure and is confronted by Gaara.",
+                                episode_thumbnail_url: "3.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "EY3BNl83ZEaKCyXC2scojw",
+                                episode_no: "4",
+                                episode_title: "Suna no jinchûriki",
+                                episode_description: "Gaara is quick to detect Deidara's presence, and an aerial battle ensues with Deidara on his giant bird and Gaara atop sand.",
+                                episode_thumbnail_url: "4.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "Kqy6kEKdwUKwQeGg_GLabw",
+                                episode_no: "5",
+                                episode_title: "Kazekage to shite...!",
+                                episode_description: "Naruto and Sakura defeat Kakashi in the survival challenge. Tsunade assigns them to a three-man squad led by Kakashi, who tells them they are now his equals.",
+                                episode_thumbnail_url: "5.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "_Pp_jInR60umIBGZKMwevw",
+                                episode_no: "6",
+                                episode_title: "Noruma kuriâ",
+                                episode_description: "In order to protect his village from Deidara's explosive clay, Gaara uses his chakra to create a giant sand shield.",
+                                episode_thumbnail_url: "6.jpg",
+                                episode_video_url: ""
+                            },
+                            {
+                                episode_id: "qIUcpoFm-Uiu_03zcVOXoA",
+                                episode_no: "7",
+                                episode_title: "Shissôre Kankurô",
+                                episode_description: "Gaara, his strength completely exhausted, is whisked away by Deidara. Kankuro ignores Baki's efforts to stop him and immediately sets out in pursuit with a platoon to rescue Gaara.",
+                                episode_thumbnail_url: "7.jpg",
                                 episode_video_url: ""
                             }
                         ]
